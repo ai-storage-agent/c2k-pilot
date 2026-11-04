@@ -1,0 +1,206 @@
+{
+  "archive": {
+    "kind": "research-archive",
+    "title": "AFD (Attention-FFN disaggregation) architecture and SGLang merge-status review",
+    "created_at": "2026-11-04",
+    "created_by": "ai-storage-agent",
+    "ticket": "fa18a05a5160f647b581ce6943b87ab7",
+    "language": "zh-CN",
+    "method": "Read-only GitHub API/gh desktop review of issues, PRs, branch trees, file contents, reviews, timelines and releases. Not a source-code copy and not an AFD implementation."
+  },
+  "question": {
+    "source": "feishu:oc_344d40a5d4d8b4d44d47ccd61c7183da",
+    "trigger_id": "10d0118787cc6691ee889762211d9ff5",
+    "text": "分析一下AFD分离架构，已经SGLang是否已经合入改功能：https://github.com/sgl-project/sglang/issues/45568",
+    "language": "zh-CN"
+  },
+  "answer": {
+    "merged_into_sglang_main": false,
+    "summary": "AFD is not merged into SGLang main. As of 2026-11-04 the main tree has no python/sglang/srt/afd directory, no --afd-role/--afd-backend server args and no AFD documentation. The complete implementation lives in unmerged PR #45562 (CONFLICTING) and the extracted first-step PR #45958 (CONFLICTING).",
+    "caveats": [
+      "PR #36258 (NPU AFD experimental) is merged, but into vendor branch ifmn/npu/afd, not main, and is behind main by 4537 commits.",
+      "Component PRs DeepEP#14 and DeepGEMM#110 are both unmerged.",
+      "Performance numbers are author-reported and bound to specific measured revisions; not reproducible from main."
+    ]
+  },
+  "snapshot": {
+    "sglang_main": {
+      "sha": "a16830deb5ea5b1e8c9874ad646f3ba95542191c",
+      "committed_at": "2026-11-04T08:47:36Z",
+      "has_srt_afd_dir": false,
+      "server_args_afd_matches": 0,
+      "has_afd_doc": false
+    },
+    "latest_release_at_snapshot": {
+      "tag": "v0.5.23",
+      "published_at": "2026-11-02"
+    }
+  },
+  "sources": {
+    "rfc_issue": {
+      "repo": "sgl-project/sglang",
+      "number": 45568,
+      "title": "[RFC] Attention-FFN disaggregation: design and integration plan",
+      "author": "sunfanyi",
+      "state": "OPEN",
+      "created_at": "2026-10-21T09:09:32Z",
+      "updated_at": "2026-10-29T11:27:57Z",
+      "comments": 0,
+      "url": "https://github.com/sgl-project/sglang/issues/45568"
+    },
+    "full_implementation_pr": {
+      "repo": "sgl-project/sglang",
+      "number": 45562,
+      "title": "[Feat] afd: add Attention-FFN disaggregation for MoE inference",
+      "author": "sunfanyi",
+      "state": "OPEN",
+      "merged_at": null,
+      "mergeable": "CONFLICTING",
+      "merge_state_status": "DIRTY",
+      "head_ref": "sglang-afd",
+      "head_sha": "932ba87c338f31888c4da8e823112ad67b0aa2fc",
+      "base_ref": "main",
+      "commits": 20,
+      "changed_files": 86,
+      "additions": 15757,
+      "deletions": 264,
+      "labels": ["documentation", "quant", "deepseek", "speculative-decoding", "jit-kernel", "memory-pool"],
+      "url": "https://github.com/sgl-project/sglang/pull/45562"
+    },
+    "first_step_pr": {
+      "repo": "sgl-project/sglang",
+      "number": 45958,
+      "title": "[Feat] afd: add the attention-FFN disaggregation framework",
+      "author": "sunfanyi",
+      "state": "OPEN",
+      "merged_at": null,
+      "mergeable": "CONFLICTING",
+      "merge_state_status": "DIRTY",
+      "head_ref": "afd-pr-01-core",
+      "head_sha": "636632680d238bfef9ed9282355d348906d4300d",
+      "base_ref": "main",
+      "commits": 2,
+      "changed_files": 49,
+      "additions": 3368,
+      "deletions": 43,
+      "url": "https://github.com/sgl-project/sglang/pull/45958"
+    },
+    "npu_experimental_pr": {
+      "repo": "sgl-project/sglang",
+      "number": 36258,
+      "title": "[NPU][AFD] Attention-FFN Disaggregation Experimental, adopt from #10900",
+      "author": "iforgetmyname",
+      "state": "MERGED",
+      "merged_at": "2026-08-25T03:13:32Z",
+      "base_ref": "ifmn/npu/afd",
+      "merged_into_main": false,
+      "vendor_branch_sha": "a22e8002212224767e01b9869ec521b6b036e5b5",
+      "vendor_branch_behind_main_by": 4537,
+      "changed_files": 17,
+      "additions": 1044,
+      "deletions": 41,
+      "url": "https://github.com/sgl-project/sglang/pull/36258"
+    },
+    "earlier_rfc": {
+      "repo": "sgl-project/sglang",
+      "number": 9401,
+      "title": "[Feature]  Support AF Disaggregation",
+      "state": "CLOSED",
+      "created_at": "2025-08-20T14:09:58Z",
+      "closed_at": "2025-11-17T00:21:31Z",
+      "url": "https://github.com/sgl-project/sglang/issues/9401"
+    },
+    "component_prs": [
+      {
+        "repo": "sgl-project/DeepEP",
+        "number": 14,
+        "title": "[Feat] afd: support disaggregated expert dispatch and combine",
+        "state": "OPEN",
+        "merged_at": null,
+        "url": "https://github.com/sgl-project/DeepEP/pull/14"
+      },
+      {
+        "repo": "sgl-project/DeepGEMM",
+        "number": 110,
+        "title": "[Feat] megamoe: add M2N execution for attention-FFN disaggregation",
+        "state": "OPEN",
+        "merged_at": null,
+        "url": "https://github.com/sgl-project/DeepGEMM/pull/110"
+      }
+    ],
+    "other_afd_prs": [
+      {"number": 47448, "title": "feat(simulator): add AFD support to sglang-simulator", "state": "OPEN"},
+      {"number": 41646, "title": "[Feat] afd: Add attention-FFN disaggregation with pipelining and CUDA Graph support", "state": "OPEN"},
+      {"number": 10900, "title": "[RFC][feat] Attention-FFN Disaggregation (AFD)", "state": "CLOSED"},
+      {"number": 21672, "title": "Afd", "state": "CLOSED"}
+    ]
+  },
+  "architecture": {
+    "definition": "Attention-FFN disaggregation places attention layers and routed MoE experts on separate GPU groups, so attention and expert capacity can be provisioned and scaled independently.",
+    "boundaries": {
+      "attention_workers_A": "request scheduling, KV cache, attention, routing, shared experts, residual processing, sampling; speculative draft execution stays on A",
+      "ffn_workers_F": "execute routed experts and return outputs; no generation scheduling, no KV cache",
+      "startup_handshake": "validate model, expert layout, quantization and topology; negotiate communication and graph capacities for asymmetric A/F groups; membership fixed at startup",
+      "forward_coordination": "agree execution mode, token shapes, active sessions and graph variants; staged backends batch compatible sessions on F, direct backends coordinate a common plan across A/F ranks",
+      "model_integration": "replace routed-expert execution with a remote call while preserving routing, shared-expert, scaling and residual semantics"
+    },
+    "transports": [
+      {"name": "nccl", "kind": "staged", "notes": "initial transport, standard SGLang dependencies only"},
+      {"name": "nvshmem", "kind": "shared symmetric arena", "notes": "separate provider, proposed into sgl-kernel"},
+      {"name": "direct_deepep", "kind": "direct token dispatch to expert-owning F ranks", "notes": "requires deep_ep.afd build; prefill still staged"},
+      {"name": "direct_megamoe", "kind": "fused M2N dispatch/compute/combine", "notes": "requires deep_gemm.mega.m2n build, SM100/SM103"}
+    ],
+    "models": ["Qwen3 MoE", "DeepSeek V3/V3.2/V4", "GLM-5 MoE DSA", "Qwen3.5 MoE (in #45562 comments)"],
+    "speculative": ["EAGLE/MTP", "DSpark"],
+    "initial_constraints": [
+      "fixed membership",
+      "homogeneous attention instances",
+      "attention TP1 within each attention DP group",
+      "pure EP on F for direct backends",
+      "one A per F in #45958"
+    ],
+    "follow_up": ["dynamic membership", "F-side pipeline parallelism", "EPLB", "elastic A/F scaling", "broader PD+AFD validation"]
+  },
+  "pr_sequence": [
+    {"order": 1, "scope": "core AFD and asymmetric parallelism", "pr": 45958, "state": "OPEN"},
+    {"order": 2, "scope": "CUDA graph execution", "pr": null},
+    {"order": 3, "scope": "decode microbatch overlap", "pr": null},
+    {"order": 4, "scope": "multiple attention instances sharing F", "pr": null},
+    {"order": 5, "scope": "NVSHMEM transport", "pr": null},
+    {"order": 6, "scope": "direct execution and DeepEP", "pr": null},
+    {"order": 7, "scope": "direct MegaMoE", "pr": null},
+    {"order": 8, "scope": "EAGLE/MTP and DSpark", "pr": null}
+  ],
+  "performance_claims_author_reported": {
+    "measured_revisions": {
+      "sglang": "34a32688a4d29082f936a7a068e579aa7465b82c",
+      "deepgemm": "d52c4444086268983f9ee55ba6543b26dd509838"
+    },
+    "baseline": "colocated EP8 / attention-DP8 with DeepEP",
+    "afd": "attention TP4/attention-DP4 sharing EP8 FFN workers",
+    "hardware": "SM100/SM103 (GB300 class)",
+    "claims_at_similar_tpot": [
+      {"model": "DeepSeek-V4-Pro", "throughput_per_gpu": "1.52x", "tpot_ms": "10.32 -> 10.22"},
+      {"model": "Qwen3-235B-A22B-FP8", "throughput_per_gpu": "2.68x", "tpot_ms": "14.36 -> 14.30"},
+      {"model": "GLM-5.2-NVFP4", "throughput_per_gpu": "1.78x", "tpot_ms": "6.87 -> 6.85"},
+      {"model": "Qwen3.5-397B-A17B-FP8", "throughput_per_gpu": "2.67x", "tpot_ms": "17.33 -> 17.32"}
+    ],
+    "note": "Author-reported, tied to the measured revisions above; not results for intermediate PRs, the current main baseline, or an official release."
+  },
+  "verification": {
+    "main_afd_dir": "404 Not Found",
+    "main_server_args_afd_matches": 0,
+    "main_docs_afd_page": "absent",
+    "pr_45562_merged_at": null,
+    "pr_45958_merged_at": null,
+    "deep_ep_pr14_merged_at": null,
+    "deep_gemm_pr110_merged_at": null
+  },
+  "limitations": [
+    "Snapshot review on 2026-11-04; merge state changes over time.",
+    "No local SGLang checkout, no AFD deployment or benchmark reproduction.",
+    "Performance and accuracy figures are author-reported from the PR/RFC, not independently verified.",
+    "PR review comment threads were sampled, not exhaustively analysed.",
+    "Feishu source is a single message with no additional attachments or thread context."
+  ]
+}
