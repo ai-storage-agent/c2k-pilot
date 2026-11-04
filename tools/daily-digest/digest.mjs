@@ -29,11 +29,6 @@ export function dayKeyIn(date, timeZone) {
   return new Intl.DateTimeFormat('en-CA', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' }).format(date)
 }
 
-/** Wall-clock HH:mm of an instant in a zone. */
-export function localTimeIn(date, timeZone) {
-  return new Intl.DateTimeFormat('en-GB', { timeZone, hour: '2-digit', minute: '2-digit', hour12: false }).format(date)
-}
-
 /** Weekday label of an instant in a zone. */
 export function weekdayIn(date, timeZone) {
   const name = new Intl.DateTimeFormat('en-US', { timeZone, weekday: 'short' }).format(date)
@@ -93,9 +88,8 @@ function prSuffix(summary) {
   return links.length ? `　${links.map(url => `[PR #${url.split('/').pop()}](${url})`).join(' ')}` : ''
 }
 
-function ticketLine(ticket, timeZone, { withTime = false } = {}) {
-  const at = withTime && ticket.updatedAt ? `（${localTimeIn(new Date(ticket.updatedAt), timeZone)}）` : ''
-  return `- ${shorten(ticket.title, 70)}${at}${prSuffix(ticket.summary)}`
+function ticketLine(ticket) {
+  return `- ${shorten(ticket.title, 70)}${prSuffix(ticket.summary)}`
 }
 
 /**
@@ -130,7 +124,7 @@ export function renderDigest(data) {
   const active = tickets.filter(ticket => ticket.state !== 'ended' && ticket.stage !== 'person' && ticket._today)
   if (active.length) {
     lines.push('', `**🔄 进行中（${active.length}）**`)
-    for (const ticket of active) lines.push(ticketLine(ticket, timeZone))
+    for (const ticket of active) lines.push(ticketLine(ticket))
   }
 
   const todayDecisions = decisions.filter(decision => dayKeyIn(new Date(decision.at), timeZone) === date)
@@ -158,8 +152,11 @@ export function renderDigest(data) {
   return `${lines.join('\n').trim()}\n`
 }
 
-async function api(base, path) {
-  const response = await fetch(`${base}/${path}`, { headers: { 'x-orchestrator-request': '1' } })
+async function api(base, path, timeoutMs = 30000) {
+  const response = await fetch(`${base}/${path}`, {
+    headers: { 'x-orchestrator-request': '1' },
+    signal: AbortSignal.timeout(timeoutMs),
+  })
   if (!response.ok) throw new Error(`GET ${path} -> HTTP ${response.status}`)
   return response.json()
 }

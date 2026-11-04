@@ -2,14 +2,15 @@
 /** Unit tests for the pure helpers and rendering of digest.mjs. Run: node --test tools/daily-digest/ */
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { dayKeyIn, localTimeIn, weekdayIn, zoneOffsetMinutes, shorten, prLinks, renderDigest } from './digest.mjs'
+import { dayKeyIn, weekdayIn, zoneOffsetMinutes, shorten, prLinks, renderDigest } from './digest.mjs'
 
-test('dayKeyIn and localTimeIn use the requested zone', () => {
+test('dayKeyIn uses the requested zone', () => {
   const at = new Date('2026-11-04T12:30:00Z') // 20:30 Asia/Shanghai
   assert.equal(dayKeyIn(at, 'Asia/Shanghai'), '2026-11-04')
-  assert.equal(localTimeIn(at, 'Asia/Shanghai'), '20:30')
   assert.equal(dayKeyIn(at, 'UTC'), '2026-11-04')
-  assert.equal(localTimeIn(at, 'UTC'), '12:30')
+  // 2026-11-04T18:00Z is already 2026-11-05 in Shanghai.
+  assert.equal(dayKeyIn(new Date('2026-11-04T18:00:00Z'), 'Asia/Shanghai'), '2026-11-05')
+  assert.equal(dayKeyIn(new Date('2026-11-04T18:00:00Z'), 'UTC'), '2026-11-04')
 })
 
 test('Asia/Shanghai has no daylight saving (UTC+8 all year)', () => {
