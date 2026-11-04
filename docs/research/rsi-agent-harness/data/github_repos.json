@@ -1,0 +1,1863 @@
+[
+ {
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "fullName": "affaan-m/ECC",
+  "language": "JavaScript",
+  "stargazersCount": 296755,
+  "updatedAt": "2026-11-04T08:37:59Z",
+  "url": "https://github.com/affaan-m/ECC",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+  "fullName": "shareAI-lab/learn-claude-code",
+  "language": "Python",
+  "stargazersCount": 79846,
+  "updatedAt": "2026-11-04T08:35:35Z",
+  "url": "https://github.com/shareAI-lab/learn-claude-code",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "The batteries-included agent harness.",
+  "fullName": "langchain-ai/deepagents",
+  "language": "Python",
+  "stargazersCount": 30975,
+  "updatedAt": "2026-11-04T08:13:53Z",
+  "url": "https://github.com/langchain-ai/deepagents",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+  "fullName": "xai-org/grok-build",
+  "language": "Rust",
+  "stargazersCount": 27676,
+  "updatedAt": "2026-11-04T08:37:52Z",
+  "url": "https://github.com/xai-org/grok-build",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)\"",
+  "fullName": "HKUDS/DeepCode",
+  "language": "Python",
+  "stargazersCount": 16801,
+  "updatedAt": "2026-11-04T05:03:16Z",
+  "url": "https://github.com/HKUDS/DeepCode",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
+  "fullName": "HKUDS/OpenHarness",
+  "language": "Python",
+  "stargazersCount": 16163,
+  "updatedAt": "2026-11-04T08:35:41Z",
+  "url": "https://github.com/HKUDS/OpenHarness",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Multiplayer agent harness for work.",
+  "fullName": "yc-software/qm",
+  "language": "TypeScript",
+  "stargazersCount": 15634,
+  "updatedAt": "2026-11-04T08:26:46Z",
+  "url": "https://github.com/yc-software/qm",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "The best agent harness.",
+  "fullName": "mindfold-ai/Trellis",
+  "language": "TypeScript",
+  "stargazersCount": 15093,
+  "updatedAt": "2026-11-04T06:57:44Z",
+  "url": "https://github.com/mindfold-ai/Trellis",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+  "fullName": "lsdefine/GenericAgent",
+  "language": "Python",
+  "stargazersCount": 14390,
+  "updatedAt": "2026-11-04T08:03:10Z",
+  "url": "https://github.com/lsdefine/GenericAgent",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Multi-Agent Harness for Production AI",
+  "fullName": "aden-hive/hive",
+  "language": "Python",
+  "stargazersCount": 11142,
+  "updatedAt": "2026-11-04T06:06:16Z",
+  "url": "https://github.com/aden-hive/hive",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
+  "fullName": "MervinPraison/PraisonAI",
+  "language": "Python",
+  "stargazersCount": 9322,
+  "updatedAt": "2026-11-04T02:02:23Z",
+  "url": "https://github.com/MervinPraison/PraisonAI",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+  "fullName": "zai-org/ZCode",
+  "language": "TypeScript",
+  "stargazersCount": 8466,
+  "updatedAt": "2026-11-04T08:29:47Z",
+  "url": "https://github.com/zai-org/ZCode",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Infrastructure for continually self‑improving agents",
+  "fullName": "Human-Agent-Society/reef",
+  "language": "Python",
+  "stargazersCount": 7793,
+  "updatedAt": "2026-11-04T07:05:18Z",
+  "url": "https://github.com/Human-Agent-Society/reef",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Agent harness for learning difficult things.",
+  "fullName": "amosblomqvist/learnharness",
+  "language": "TypeScript",
+  "stargazersCount": 5241,
+  "updatedAt": "2026-11-04T08:37:58Z",
+  "url": "https://github.com/amosblomqvist/learnharness",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust.",
+  "fullName": "sentrux/sentrux",
+  "language": "Rust",
+  "stargazersCount": 3334,
+  "updatedAt": "2026-11-02T09:49:03Z",
+  "url": "https://github.com/sentrux/sentrux",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Make any agent harness multimodal-native.",
+  "fullName": "QwenLM/Qwen-MM-Plugins",
+  "language": "Python",
+  "stargazersCount": 3185,
+  "updatedAt": "2026-11-04T08:19:52Z",
+  "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Visa Vulnerability Agentic Harness",
+  "fullName": "visa/visa-vulnerability-agentic-harness",
+  "language": "Python",
+  "stargazersCount": 3044,
+  "updatedAt": "2026-11-04T02:18:16Z",
+  "url": "https://github.com/visa/visa-vulnerability-agentic-harness",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Self-referential self-improving agents that can optimize for any computable task",
+  "fullName": "facebookresearch/HyperAgents",
+  "language": "Python",
+  "stargazersCount": 2864,
+  "updatedAt": "2026-11-04T07:01:10Z",
+  "url": "https://github.com/facebookresearch/HyperAgents",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "📖 A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+  "fullName": "ANative-Lab/Awesome-Self-Evolving-Agents",
+  "language": "",
+  "stargazersCount": 2516,
+  "updatedAt": "2026-11-04T06:04:06Z",
+  "url": "https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+  "fullName": "jennyzzt/dgm",
+  "language": "Python",
+  "stargazersCount": 2482,
+  "updatedAt": "2026-11-04T08:07:35Z",
+  "url": "https://github.com/jennyzzt/dgm",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Async-first agent harness",
+  "fullName": "unreallabsai/unreal-agent",
+  "language": "Go",
+  "stargazersCount": 2222,
+  "updatedAt": "2026-11-04T07:42:11Z",
+  "url": "https://github.com/unreallabsai/unreal-agent",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "An awesome list of Agent Harness engineering resources, including GitHub projects, tools, benchmarks, and practical guides.",
+  "fullName": "Picrew/awesome-agent-harness",
+  "language": "Python",
+  "stargazersCount": 1904,
+  "updatedAt": "2026-11-04T03:53:34Z",
+  "url": "https://github.com/Picrew/awesome-agent-harness",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
+  "fullName": "TokenRhythm/NeoHorse",
+  "language": "Python",
+  "stargazersCount": 1693,
+  "updatedAt": "2026-11-04T04:48:15Z",
+  "url": "https://github.com/TokenRhythm/NeoHorse",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "[ICLR 2025] Automated Design of Agentic Systems",
+  "fullName": "ShengranHu/ADAS",
+  "language": "Python",
+  "stargazersCount": 1659,
+  "updatedAt": "2026-10-25T17:39:16Z",
+  "url": "https://github.com/ShengranHu/ADAS",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems"
+  ]
+ },
+ {
+  "description": "The batteries included agent harness.",
+  "fullName": "langchain-ai/deepagentsjs",
+  "language": "TypeScript",
+  "stargazersCount": 1634,
+  "updatedAt": "2026-11-04T07:57:26Z",
+  "url": "https://github.com/langchain-ai/deepagentsjs",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
+  "fullName": "modelscope/AgentEvolver",
+  "language": "Python",
+  "stargazersCount": 1591,
+  "updatedAt": "2026-11-04T03:11:48Z",
+  "url": "https://github.com/modelscope/AgentEvolver",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "The offical repo for \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\"",
+  "fullName": "zhengkid/Dream-RSI",
+  "language": "",
+  "stargazersCount": 1556,
+  "updatedAt": "2026-11-04T08:12:57Z",
+  "url": "https://github.com/zhengkid/Dream-RSI",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "🏆 Ranked list of 187 AI agent harnesses, plus templates, playbooks, MCP, and learning resources. Rescored weekly.",
+  "fullName": "RyanAlberts/best-of-Agent-Harnesses",
+  "language": "Python",
+  "stargazersCount": 1445,
+  "updatedAt": "2026-11-04T02:55:52Z",
+  "url": "https://github.com/RyanAlberts/best-of-Agent-Harnesses",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "CharlesQ9/Self-Evolving-Agents",
+  "language": "",
+  "stargazersCount": 1345,
+  "updatedAt": "2026-10-29T07:00:08Z",
+  "url": "https://github.com/CharlesQ9/Self-Evolving-Agents",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "[ICML'26 & COLM'26] Agent0 Series: Self-Evolving Agents from Zero Data",
+  "fullName": "aiming-lab/Agent0",
+  "language": "Python",
+  "stargazersCount": 1287,
+  "updatedAt": "2026-11-03T21:16:18Z",
+  "url": "https://github.com/aiming-lab/Agent0",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "A generalist autonomous research agent — runs experiments, researches, and iteratively optimizes, autonomously.",
+  "fullName": "RUC-NLPIR/Arbor",
+  "language": "Python",
+  "stargazersCount": 1140,
+  "updatedAt": "2026-11-03T05:57:15Z",
+  "url": "https://github.com/RUC-NLPIR/Arbor",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+  "fullName": "Gen-Verse/RSI-Anything",
+  "language": "HTML",
+  "stargazersCount": 1112,
+  "updatedAt": "2026-11-04T08:13:54Z",
+  "url": "https://github.com/Gen-Verse/RSI-Anything",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "🐝  The First Self-Improving agents with RL / Prompting Optimization",
+  "fullName": "metauto-ai/GPTSwarm",
+  "language": "Python",
+  "stargazersCount": 1067,
+  "updatedAt": "2026-11-03T10:01:43Z",
+  "url": "https://github.com/metauto-ai/GPTSwarm",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Official AHE code — Agentic Harness Engineering: observability-driven automatic evolution of coding-agent harnesses (concurrent w/ meta-harness). NexAU-AHE reaches 84.7% ± 2.1 pass@1 on Terminal-Bench 2 (GPT-5.5). Lifts GPT-5.4 69.7→77.0% over 10 iters, beats Codex/ACE/Training-Free GRPO; frozen harness transfers to SWE-bench-Verified.",
+  "fullName": "china-qijizhifeng/agentic-harness-engineering",
+  "language": "Python",
+  "stargazersCount": 959,
+  "updatedAt": "2026-11-04T04:53:24Z",
+  "url": "https://github.com/china-qijizhifeng/agentic-harness-engineering",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
+  "fullName": "lobehub/awesome-rsi",
+  "language": "",
+  "stargazersCount": 941,
+  "updatedAt": "2026-11-04T05:16:04Z",
+  "url": "https://github.com/lobehub/awesome-rsi",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "A copy-paste system prompt that has your coding agent (Claude Code, Codex, Cursor) build a self-improving agent system for any computer work.",
+  "fullName": "fainir/most-capable-agent-system-prompt",
+  "language": "",
+  "stargazersCount": 882,
+  "updatedAt": "2026-11-03T01:28:10Z",
+  "url": "https://github.com/fainir/most-capable-agent-system-prompt",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
+  "fullName": "FrontisAI/OpenRSI",
+  "language": "Python",
+  "stargazersCount": 872,
+  "updatedAt": "2026-11-04T03:27:12Z",
+  "url": "https://github.com/FrontisAI/OpenRSI",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Self-improving Agents",
+  "fullName": "aymenfurter/microagents",
+  "language": "Python",
+  "stargazersCount": 822,
+  "updatedAt": "2026-10-29T04:15:18Z",
+  "url": "https://github.com/aymenfurter/microagents",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "BabyAGI: an Autonomous and Self-Improving agent, or BASI",
+  "fullName": "oliveirabruno01/babyagi-asi",
+  "language": "Python",
+  "stargazersCount": 810,
+  "updatedAt": "2026-10-28T07:12:21Z",
+  "url": "https://github.com/oliveirabruno01/babyagi-asi",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Self-improvement skill for OpenClaw. It captures learnings, errors, and feature requests to support continuous improvement across sessions. It is a agent knowledge skill made for the skill marketplace",
+  "fullName": "pskoett/self-improving-agent",
+  "language": "JavaScript",
+  "stargazersCount": 790,
+  "updatedAt": "2026-11-03T17:31:44Z",
+  "url": "https://github.com/pskoett/self-improving-agent",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "self-improving agent",
+  "fullName": "mindsdb/anton",
+  "language": "Python",
+  "stargazersCount": 758,
+  "updatedAt": "2026-11-03T00:18:18Z",
+  "url": "https://github.com/mindsdb/anton",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.",
+  "fullName": "miuuyy/Octopus-SI-OS",
+  "language": "Rust",
+  "stargazersCount": 682,
+  "updatedAt": "2026-11-04T08:19:30Z",
+  "url": "https://github.com/miuuyy/Octopus-SI-OS",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Multi-Agent + Automation Harness: Graph-based Workflows, MCP, Self-Improving Agents. NextJs+React",
+  "fullName": "mario-andreschak/FLUJO",
+  "language": "TypeScript",
+  "stargazersCount": 673,
+  "updatedAt": "2026-11-04T05:33:26Z",
+  "url": "https://github.com/mario-andreschak/FLUJO",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Autonomous self-evolving agents. Vision-grounded layered memory and self-written skills for LLM agents that operate your computer.",
+  "fullName": "jmerelnyc/Photo-agents",
+  "language": "Python",
+  "stargazersCount": 667,
+  "updatedAt": "2026-11-02T13:46:43Z",
+  "url": "https://github.com/jmerelnyc/Photo-agents",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Diving into Reliable Self-Evolving Agents: A Survey",
+  "fullName": "wkqdzkd/Awesome-Reliable-Self-Evolving-Agents",
+  "language": "HTML",
+  "stargazersCount": 661,
+  "updatedAt": "2026-11-03T18:17:48Z",
+  "url": "https://github.com/wkqdzkd/Awesome-Reliable-Self-Evolving-Agents",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
+  "fullName": "selfimproving-agent/Awesome-Self-Improving-Agents",
+  "language": "TeX",
+  "stargazersCount": 607,
+  "updatedAt": "2026-11-04T05:21:36Z",
+  "url": "https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "[NeurIPS'26] MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+  "fullName": "ViktorAxelsen/MemSkill",
+  "language": "Python",
+  "stargazersCount": 599,
+  "updatedAt": "2026-11-04T06:10:10Z",
+  "url": "https://github.com/ViktorAxelsen/MemSkill",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "A training-free multi-agent framework for recursive self-improvement in new environments through broad-then-deep autonomous exploration and reusable memory.",
+  "fullName": "AetherLabsAI/RSIAgent",
+  "language": "Python",
+  "stargazersCount": 588,
+  "updatedAt": "2026-11-04T02:22:13Z",
+  "url": "https://github.com/AetherLabsAI/RSIAgent",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Yunjue Agent: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks",
+  "fullName": "YunjueTech/Yunjue-Agent",
+  "language": "Python",
+  "stargazersCount": 545,
+  "updatedAt": "2026-11-04T03:03:00Z",
+  "url": "https://github.com/YunjueTech/Yunjue-Agent",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "AutoJunjie/awesome-agent-harness",
+  "language": "",
+  "stargazersCount": 536,
+  "updatedAt": "2026-10-31T11:08:04Z",
+  "url": "https://github.com/AutoJunjie/awesome-agent-harness",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "Recursive Self-Improvement Personal Assistant",
+  "fullName": "HITsz-TMG/KnowAct",
+  "language": "Python",
+  "stargazersCount": 482,
+  "updatedAt": "2026-10-31T14:59:04Z",
+  "url": "https://github.com/HITsz-TMG/KnowAct",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "A Survey of Self-Evolving Agents | A curated list of resources (surveys, papers, benchmarks, and opensource projects) on Self-Evolving Agents.",
+  "fullName": "XMUDeepLIT/Awesome-Self-Evolving-Agents",
+  "language": "",
+  "stargazersCount": 481,
+  "updatedAt": "2026-11-02T03:52:17Z",
+  "url": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Evaluation harness for Apodex-1.0 on public deep-research benchmarks.",
+  "fullName": "ApodexAI/AgentHarness",
+  "language": "Python",
+  "stargazersCount": 464,
+  "updatedAt": "2026-11-02T03:03:25Z",
+  "url": "https://github.com/ApodexAI/AgentHarness",
+  "query": "agent harness",
+  "queries": [
+   "agent harness"
+  ]
+ },
+ {
+  "description": "A framework for continual learning and recursive self-improvement through harness adapter evolution.",
+  "fullName": "Infini-AI-Lab/hermit",
+  "language": "Python",
+  "stargazersCount": 458,
+  "updatedAt": "2026-11-04T08:06:16Z",
+  "url": "https://github.com/Infini-AI-Lab/hermit",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+  "fullName": "bingreeky/MemGen",
+  "language": "Python",
+  "stargazersCount": 427,
+  "updatedAt": "2026-11-03T23:28:22Z",
+  "url": "https://github.com/bingreeky/MemGen",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+  "fullName": "Gen-Verse/ScienceBuddy",
+  "language": "Python",
+  "stargazersCount": 413,
+  "updatedAt": "2026-11-04T00:21:50Z",
+  "url": "https://github.com/Gen-Verse/ScienceBuddy",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Scikit-learn for Recursive Self-improvement (RSI). A modular framework for recursive harness evolution.",
+  "fullName": "rsi-gear/gear",
+  "language": "TypeScript",
+  "stargazersCount": 410,
+  "updatedAt": "2026-11-04T08:07:47Z",
+  "url": "https://github.com/rsi-gear/gear",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "A lightweight Python SDK and CLI for evaluating recursive self-improvement (RSI) methods across agent benchmarks.",
+  "fullName": "Danielxu0208/rsi_eval",
+  "language": "Python",
+  "stargazersCount": 369,
+  "updatedAt": "2026-11-04T07:48:38Z",
+  "url": "https://github.com/Danielxu0208/rsi_eval",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "A self-improving agent. Tested on DeepSeek, Qwen, Kimi, GLM models. Supports MCP,  Skills.",
+  "fullName": "7df-lab/devo",
+  "language": "Rust",
+  "stargazersCount": 344,
+  "updatedAt": "2026-11-03T07:22:12Z",
+  "url": "https://github.com/7df-lab/devo",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Skills for AI agents, self-improving agent skills",
+  "fullName": "pskoett/pskoett-ai-skills",
+  "language": "Shell",
+  "stargazersCount": 327,
+  "updatedAt": "2026-11-01T02:01:37Z",
+  "url": "https://github.com/pskoett/pskoett-ai-skills",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Awesome list and survey website for agents in the era of experience",
+  "fullName": "FrontisAI/Awesome-Self-Improving-Agents",
+  "language": "CSS",
+  "stargazersCount": 292,
+  "updatedAt": "2026-10-30T07:14:37Z",
+  "url": "https://github.com/FrontisAI/Awesome-Self-Improving-Agents",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Blockcell is a self‑evolving agent",
+  "fullName": "blockcell-labs/blockcell",
+  "language": "Rust",
+  "stargazersCount": 262,
+  "updatedAt": "2026-11-03T23:38:11Z",
+  "url": "https://github.com/blockcell-labs/blockcell",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
+  "fullName": "Arvid-pku/Godel_Agent",
+  "language": "Python",
+  "stargazersCount": 239,
+  "updatedAt": "2026-10-30T02:45:35Z",
+  "url": "https://github.com/Arvid-pku/Godel_Agent",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Self improving agentic rag pipeline",
+  "fullName": "FareedKhan-dev/autonomous-agentic-rag",
+  "language": "Jupyter Notebook",
+  "stargazersCount": 228,
+  "updatedAt": "2026-11-03T02:15:46Z",
+  "url": "https://github.com/FareedKhan-dev/autonomous-agentic-rag",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Paper: “MEMRL: SELF-EVOLVING AGENTS VIA RUNTIME REINFORCEMENT LEARNING ON EPISODIC MEMORY” Open-Source Code",
+  "fullName": "MemTensor/MemRL",
+  "language": "Python",
+  "stargazersCount": 196,
+  "updatedAt": "2026-11-03T18:22:51Z",
+  "url": "https://github.com/MemTensor/MemRL",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "A curated list of papers and resources on Recursive Self-Improvement (RSI) for AI.",
+  "fullName": "theseus-labs-rsi/awesome-rsi",
+  "language": "",
+  "stargazersCount": 178,
+  "updatedAt": "2026-10-31T06:30:01Z",
+  "url": "https://github.com/theseus-labs-rsi/awesome-rsi",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "RSIGame: Autonomous agentic game development with recursive self-improvement",
+  "fullName": "WenyiWU0111/RSIGame",
+  "language": "Python",
+  "stargazersCount": 169,
+  "updatedAt": "2026-10-30T23:35:03Z",
+  "url": "https://github.com/WenyiWU0111/RSIGame",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Self-improving Agent orchestrator for all knowledge work",
+  "fullName": "peakflo/20x",
+  "language": "TypeScript",
+  "stargazersCount": 168,
+  "updatedAt": "2026-11-02T16:14:45Z",
+  "url": "https://github.com/peakflo/20x",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "Self-Improving Agents -- A Progression Four levels of self-improving code agents, from the simplest loop to a full adversarial arena with self-modifying agents. Each level adds one key idea.",
+  "fullName": "BetterForAll/self-improving-agents",
+  "language": "Python",
+  "stargazersCount": 159,
+  "updatedAt": "2026-10-24T08:39:54Z",
+  "url": "https://github.com/BetterForAll/self-improving-agents",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+  "fullName": "zaixizhang/STELLA",
+  "language": "Python",
+  "stargazersCount": 159,
+  "updatedAt": "2026-10-14T01:18:07Z",
+  "url": "https://github.com/zaixizhang/STELLA",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "CodeEvolve is an open-source evolutionary coding agent for algorithm discovery and optimization.",
+  "fullName": "inter-co/science-codeevolve",
+  "language": "Python",
+  "stargazersCount": 153,
+  "updatedAt": "2026-10-29T14:05:00Z",
+  "url": "https://github.com/inter-co/science-codeevolve",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+  "fullName": "evolvent-ai/RSIGym",
+  "language": "Python",
+  "stargazersCount": 140,
+  "updatedAt": "2026-11-04T07:23:16Z",
+  "url": "https://github.com/evolvent-ai/RSIGym",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Self improving agents through iterations",
+  "fullName": "AgentToolkit/altk-evolve",
+  "language": "Python",
+  "stargazersCount": 135,
+  "updatedAt": "2026-10-30T07:48:02Z",
+  "url": "https://github.com/AgentToolkit/altk-evolve",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "An autonomous research agent that turns a topic into a peer-reviewed technical report",
+  "fullName": "AI4Scientist/nano-scientist",
+  "language": "TeX",
+  "stargazersCount": 130,
+  "updatedAt": "2026-10-25T06:23:34Z",
+  "url": "https://github.com/AI4Scientist/nano-scientist",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "(ICML 2026) Self‑Evolving LLM Agents through an Experience‑Driven Lifecycle",
+  "fullName": "KnowledgeXLab/EvolveR",
+  "language": "Python",
+  "stargazersCount": 129,
+  "updatedAt": "2026-10-26T09:19:54Z",
+  "url": "https://github.com/KnowledgeXLab/EvolveR",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery",
+  "fullName": "minihellboy/factorminer",
+  "language": "Python",
+  "stargazersCount": 125,
+  "updatedAt": "2026-11-03T07:51:51Z",
+  "url": "https://github.com/minihellboy/factorminer",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "A virtual clinical environment for self‑evolving LLM diagnostic agents.",
+  "fullName": "MAGIC-AI4Med/DiagGym",
+  "language": "Python",
+  "stargazersCount": 115,
+  "updatedAt": "2026-11-02T04:10:26Z",
+  "url": "https://github.com/MAGIC-AI4Med/DiagGym",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "(ACL 2026 Findings) Learning on the Job: An Experience-Driven, Self-Evolving Agent for Long-Horizon Tasks",
+  "fullName": "KnowledgeXLab/MUSE",
+  "language": "Python",
+  "stargazersCount": 113,
+  "updatedAt": "2026-10-28T23:37:27Z",
+  "url": "https://github.com/KnowledgeXLab/MUSE",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Official Repo of  Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+  "fullName": "ShaoShuai0605/Misevolution",
+  "language": "Python",
+  "stargazersCount": 102,
+  "updatedAt": "2026-10-18T12:35:32Z",
+  "url": "https://github.com/ShaoShuai0605/Misevolution",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Research works from Tencent AI Lab regarding self-evolving agents",
+  "fullName": "Tencent/SelfEvolvingAgent",
+  "language": "Python",
+  "stargazersCount": 99,
+  "updatedAt": "2026-10-02T15:14:30Z",
+  "url": "https://github.com/Tencent/SelfEvolvingAgent",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "HarnessMM: recursive self-improvement for harness token efficiency",
+  "fullName": "YuhuaJiang2002/HarnessMM",
+  "language": "Python",
+  "stargazersCount": 91,
+  "updatedAt": "2026-11-04T07:42:16Z",
+  "url": "https://github.com/YuhuaJiang2002/HarnessMM",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "DARWIN is a self-evolving LLM jailbreak framework that grows a reusable strategy pool through external extraction, sandbox filtering, history-memory retrieval, Markov-based strategy selection, and reflective/genetic evolution.",
+  "fullName": "ZJU-LLM-Safety/DARWIN",
+  "language": "Python",
+  "stargazersCount": 85,
+  "updatedAt": "2026-11-04T07:59:16Z",
+  "url": "https://github.com/ZJU-LLM-Safety/DARWIN",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Benchmark self-evolving Agent upon realistic large-scale file workspaces",
+  "fullName": "OpenDataBox/Workspace-Bench",
+  "language": "Python",
+  "stargazersCount": 84,
+  "updatedAt": "2026-11-03T08:59:07Z",
+  "url": "https://github.com/OpenDataBox/Workspace-Bench",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory",
+  "fullName": "rux001/HyperSkill",
+  "language": "Python",
+  "stargazersCount": 59,
+  "updatedAt": "2026-11-02T23:50:10Z",
+  "url": "https://github.com/rux001/HyperSkill",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Recursive self-improvement",
+  "fullName": "strangeloopcanon/Autotune_GPT",
+  "language": "Python",
+  "stargazersCount": 57,
+  "updatedAt": "2026-10-22T11:51:33Z",
+  "url": "https://github.com/strangeloopcanon/Autotune_GPT",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "A suite of open-ended, non-imitative tasks involving generalizable skills for large language model chatbots and agents to enable bootstrapped recursive self-improvement and an unambiguous AGI.",
+  "fullName": "keskival/recursive-self-improvement-suite",
+  "language": "Python",
+  "stargazersCount": 55,
+  "updatedAt": "2026-08-14T13:19:27Z",
+  "url": "https://github.com/keskival/recursive-self-improvement-suite",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "LLM driven natural language to generate summaries, bibliography lists, download PDF reports autonomously and extract and visualise open domain data (curently uses GPlates, Macrostrat and Mindat).",
+  "fullName": "PCleverleyGeol/GeoAssist---An-open-source-autonomous-research-agent-for-geoscience-data-and-literature.-",
+  "language": "Python",
+  "stargazersCount": 54,
+  "updatedAt": "2026-10-11T18:16:25Z",
+  "url": "https://github.com/PCleverleyGeol/GeoAssist---An-open-source-autonomous-research-agent-for-geoscience-data-and-literature.-",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "An open recursive self improvement agent",
+  "fullName": "AlexWortega/OpenRsi",
+  "language": "Python",
+  "stargazersCount": 53,
+  "updatedAt": "2026-10-15T04:08:23Z",
+  "url": "https://github.com/AlexWortega/OpenRsi",
+  "query": "recursive self-improvement",
+  "queries": [
+   "recursive self-improvement"
+  ]
+ },
+ {
+  "description": "Master self-improving LLM agents systematically with runnable Stanford CS329A notebooks.",
+  "fullName": "walkinglabs/self-improving-agent-notebook",
+  "language": "Jupyter Notebook",
+  "stargazersCount": 52,
+  "updatedAt": "2026-10-28T12:27:59Z",
+  "url": "https://github.com/walkinglabs/self-improving-agent-notebook",
+  "query": "self-improving agent",
+  "queries": [
+   "self-improving agent"
+  ]
+ },
+ {
+  "description": "The self-evolving agentic framework for bioinformatics",
+  "fullName": "the-omics-os/lobster",
+  "language": "Python",
+  "stargazersCount": 50,
+  "updatedAt": "2026-11-03T22:30:57Z",
+  "url": "https://github.com/the-omics-os/lobster",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "MUSE-Autoskill  - A self-evolving LLM agent that builds, tests, and reuses reusable skills — getting smarter with every task.",
+  "fullName": "Akshay2695/muse_autoskill",
+  "language": "Python",
+  "stargazersCount": 39,
+  "updatedAt": "2026-10-02T04:32:05Z",
+  "url": "https://github.com/Akshay2695/muse_autoskill",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "🤖 Reddit-infuriating, AI-powered Shell scripts using Claude Code SDK. essentially an ADAS (Automated Design of Agentic Systems) implementation with some new instruments. Experimental.",
+  "fullName": "glassBead-tc/claude-bloom",
+  "language": "Shell",
+  "stargazersCount": 34,
+  "updatedAt": "2026-10-27T05:57:51Z",
+  "url": "https://github.com/glassBead-tc/claude-bloom",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "KwangSun-Ryu/ADMET-AGI-COTRAG-and-Self-evolving-Agent-",
+  "language": "",
+  "stargazersCount": 27,
+  "updatedAt": "2026-07-21T22:08:45Z",
+  "url": "https://github.com/KwangSun-Ryu/ADMET-AGI-COTRAG-and-Self-evolving-Agent-",
+  "query": "self-evolving agent",
+  "queries": [
+   "self-evolving agent"
+  ]
+ },
+ {
+  "description": "Agent libOS provides a runtime substrate for self-evolving LLM agents with process-like execution, tool management, and security boundaries implemented through explicit capabilities and runtime primitives.",
+  "fullName": "yingqi-z20/Agent-libOS",
+  "language": "Python",
+  "stargazersCount": 26,
+  "updatedAt": "2026-10-07T14:06:10Z",
+  "url": "https://github.com/yingqi-z20/Agent-libOS",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "An autonomous AI Research Agent Telegram bot powered by NVIDIA NIM (Mistral Large 3), DuckDuckGo search, and BeautifulSoup for real-time web scraping and comprehensive report generation.",
+  "fullName": "MDVR9980/autonomous-research-agent-telegram",
+  "language": "Python",
+  "stargazersCount": 24,
+  "updatedAt": "2026-10-24T15:42:37Z",
+  "url": "https://github.com/MDVR9980/autonomous-research-agent-telegram",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "[WWW 2026 Oral] MoE-CL:Self-Evolving LLMs via Continual Instruction Tuning ",
+  "fullName": "BAI-LAB/MoE-CL",
+  "language": "Python",
+  "stargazersCount": 22,
+  "updatedAt": "2026-08-31T05:30:40Z",
+  "url": "https://github.com/BAI-LAB/MoE-CL",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "A curated list of autonomous AI research agents — from idea generation to experiment execution and paper writing. 16 projects, community usefulness poll included.",
+  "fullName": "LTzycLT/Awesome-Autonomous-Research-Agent",
+  "language": "",
+  "stargazersCount": 21,
+  "updatedAt": "2026-10-27T05:47:43Z",
+  "url": "https://github.com/LTzycLT/Awesome-Autonomous-Research-Agent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "m21hm9/Autonomous-Research-Agent-v0",
+  "language": "Python",
+  "stargazersCount": 18,
+  "updatedAt": "2026-03-18T16:20:24Z",
+  "url": "https://github.com/m21hm9/Autonomous-Research-Agent-v0",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "Open standard for persistent, self-evolving LLM agent memory (open-core, Apache-2.0).",
+  "fullName": "ssanvi-builds/seahorse",
+  "language": "Python",
+  "stargazersCount": 16,
+  "updatedAt": "2026-10-26T03:00:54Z",
+  "url": "https://github.com/ssanvi-builds/seahorse",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Official Repository for The Paper: AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?",
+  "fullName": "Jasper-Yan/AgentStream",
+  "language": "Python",
+  "stargazersCount": 16,
+  "updatedAt": "2026-10-03T07:17:38Z",
+  "url": "https://github.com/Jasper-Yan/AgentStream",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "P2PCLAW Research White Paper Series II — 16x16 chess-grid autonomous research agent with evolutionary memory and self-improving capabilities.",
+  "fullName": "Agnuxo1/The-Living-Agent",
+  "language": "Python",
+  "stargazersCount": 16,
+  "updatedAt": "2026-11-01T00:34:36Z",
+  "url": "https://github.com/Agnuxo1/The-Living-Agent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "[ICML'26] Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation",
+  "fullName": "yuxuan-z19/cudanalyst",
+  "language": "Cuda",
+  "stargazersCount": 13,
+  "updatedAt": "2026-10-30T08:33:26Z",
+  "url": "https://github.com/yuxuan-z19/cudanalyst",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "My notes and insights on designing self-evolving LLM agents.",
+  "fullName": "hiyouga/Designing-Self-Evolving-Agents",
+  "language": "JavaScript",
+  "stargazersCount": 13,
+  "updatedAt": "2026-10-03T01:06:32Z",
+  "url": "https://github.com/hiyouga/Designing-Self-Evolving-Agents",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "A curated list of awesome projects using AI to automate scientific research — AI Scientist, autonomous research agents, paper writing, hypothesis generation, and more.",
+  "fullName": "yenanjing/awesome-ai-for-science",
+  "language": "Python",
+  "stargazersCount": 13,
+  "updatedAt": "2026-11-03T23:54:11Z",
+  "url": "https://github.com/yenanjing/awesome-ai-for-science",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "An autonomous research agent built on Karpathy's LLM Wiki— give it a topic, it researches the internet and builds a structured wiki automatically.",
+  "fullName": "DamonChen-anan/autodidact-skill",
+  "language": "",
+  "stargazersCount": 13,
+  "updatedAt": "2026-05-09T14:17:49Z",
+  "url": "https://github.com/DamonChen-anan/autodidact-skill",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "Stay in the loop of autonomous research agents",
+  "fullName": "hannesill/vitrine",
+  "language": "Python",
+  "stargazersCount": 12,
+  "updatedAt": "2026-10-18T07:29:23Z",
+  "url": "https://github.com/hannesill/vitrine",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "[ICML 2026] PathWise: Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs",
+  "fullName": "oguzhangungordu/PathWise",
+  "language": "Python",
+  "stargazersCount": 11,
+  "updatedAt": "2026-10-26T22:43:12Z",
+  "url": "https://github.com/oguzhangungordu/PathWise",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Official code for \"Rethinking Continual Experience Internalization for Self-Evolving LLM Agents\"",
+  "fullName": "RUCBM/ExpInternalization",
+  "language": "Python",
+  "stargazersCount": 10,
+  "updatedAt": "2026-08-24T12:28:20Z",
+  "url": "https://github.com/RUCBM/ExpInternalization",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Autonomous research agent powered by local LLMs",
+  "fullName": "guitaripod/Weavex",
+  "language": "Rust",
+  "stargazersCount": 10,
+  "updatedAt": "2026-10-29T13:32:07Z",
+  "url": "https://github.com/guitaripod/Weavex",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "Curated map of self-evolving LLM agents — 285+ papers across 18 topics incl. recursive self-improvement, harness evolution, misevolution safety, and two runnable demos. Every link machine-checked.",
+  "fullName": "sukoji/awesome-self-evolving-agents",
+  "language": "Python",
+  "stargazersCount": 8,
+  "updatedAt": "2026-10-28T01:37:02Z",
+  "url": "https://github.com/sukoji/awesome-self-evolving-agents",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Autonomous Research Agent for Scientific Discovery",
+  "fullName": "redigg/redigg",
+  "language": "TypeScript",
+  "stargazersCount": 8,
+  "updatedAt": "2026-06-13T14:09:19Z",
+  "url": "https://github.com/redigg/redigg",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "Open-source evolutionary coding agent: LLMs discover and optimize algorithms through iterative evolution. Compounding memory, adaptive model selection, multi-language.",
+  "fullName": "firstbatchxyz/kai-evolve",
+  "language": "Python",
+  "stargazersCount": 7,
+  "updatedAt": "2026-09-25T13:02:04Z",
+  "url": "https://github.com/firstbatchxyz/kai-evolve",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+  "fullName": "THU-KEG/RIDAR",
+  "language": "Python",
+  "stargazersCount": 7,
+  "updatedAt": "2026-10-31T19:47:16Z",
+  "url": "https://github.com/THU-KEG/RIDAR",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "EvoReplay: analysis suite for \"What Do Evolutionary Coding Agents Evolve?\"",
+  "fullName": "ZIB-IOL/EvoReplay",
+  "language": "Python",
+  "stargazersCount": 6,
+  "updatedAt": "2026-10-04T09:03:01Z",
+  "url": "https://github.com/ZIB-IOL/EvoReplay",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "SELAUR: Self Evolving LLM Agent via Uncertainty-aware Rewards",
+  "fullName": "adoptedirelia/SELAUR-Self-Evolving-LLM-Agent-via-Uncertainty-aware-Rewards",
+  "language": "Python",
+  "stargazersCount": 6,
+  "updatedAt": "2026-09-17T16:39:41Z",
+  "url": "https://github.com/adoptedirelia/SELAUR-Self-Evolving-LLM-Agent-via-Uncertainty-aware-Rewards",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Reference implementation of Ratchet: a minimal hygiene recipe for self-evolving LLM agents (arXiv:2605.22148)",
+  "fullName": "amazon-science/Self-Evolving-Agents-Ratchet",
+  "language": "Python",
+  "stargazersCount": 6,
+  "updatedAt": "2026-10-18T03:42:31Z",
+  "url": "https://github.com/amazon-science/Self-Evolving-Agents-Ratchet",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "Marcusng88/self-prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 5,
+  "updatedAt": "2026-04-17T03:19:00Z",
+  "url": "https://github.com/Marcusng88/self-prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Self-evolving LLM agents for natural-language 3D radio environment construction and executable Sionna wireless simulation.",
+  "fullName": "Pervasive-Intelligence-Lab/agentic-sionna",
+  "language": "Python",
+  "stargazersCount": 5,
+  "updatedAt": "2026-10-08T01:33:18Z",
+  "url": "https://github.com/Pervasive-Intelligence-Lab/agentic-sionna",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "An advanced AI research system that doesn't just search—it thinks, reflects, and iterates. Unlike standard RAG systems, this agent uses a stateful architecture to identify information gaps and refine its investigation strategy autonomously.",
+  "fullName": "Ismail-2001/Autonomous-Research-Agent",
+  "language": "Python",
+  "stargazersCount": 5,
+  "updatedAt": "2026-06-12T05:44:31Z",
+  "url": "https://github.com/Ismail-2001/Autonomous-Research-Agent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+  "fullName": "asfarasimconcerned/STELLA",
+  "language": "Python",
+  "stargazersCount": 4,
+  "updatedAt": "2026-11-04T07:28:47Z",
+  "url": "https://github.com/asfarasimconcerned/STELLA",
+  "query": "self-evolving LLM",
+  "queries": [
+   "self-evolving LLM"
+  ]
+ },
+ {
+  "description": "Starter repo for modular, FastAPI-based playground experimenting with autonomous research agents.",
+  "fullName": "agentnativee/multi-agent-researcher",
+  "language": "Python",
+  "stargazersCount": 4,
+  "updatedAt": "2025-09-02T17:28:16Z",
+  "url": "https://github.com/agentnativee/multi-agent-researcher",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "🥇 1st Place AI Safety @ AGI SF | OpenEvolve is an evolutionary coding agent that uses Large Language Models to optimize code through an iterative process. It orchestrates a pipeline of LLM-based code generation, evaluation, and selection to continuously improve programs for a variety of tasks.",
+  "fullName": "gratitude5dee/OpenEvolve",
+  "language": "TypeScript",
+  "stargazersCount": 2,
+  "updatedAt": "2025-11-28T19:52:34Z",
+  "url": "https://github.com/gratitude5dee/OpenEvolve",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "A local-first AI cockpit for macOS. Prompt optimization, agentic file assistant, and natural-language terminal — powered by MLX, 100% private.",
+  "fullName": "cedrickdev/workbench",
+  "language": "",
+  "stargazersCount": 2,
+  "updatedAt": "2026-09-05T09:39:45Z",
+  "url": "https://github.com/cedrickdev/workbench",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "mayankpahade611/Autonomous_Research_agent",
+  "language": "Python",
+  "stargazersCount": 2,
+  "updatedAt": "2026-09-24T18:30:49Z",
+  "url": "https://github.com/mayankpahade611/Autonomous_Research_agent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "A self-learning AI research system that autonomously crawls knowledge, conducts research, writes reports, and improves itself.",
+  "fullName": "florian-grassl/autonomous-research-agent",
+  "language": "Python",
+  "stargazersCount": 2,
+  "updatedAt": "2026-06-24T06:59:23Z",
+  "url": "https://github.com/florian-grassl/autonomous-research-agent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "[ICLR 2025] Automated Design of Agentic Systems",
+  "fullName": "wmikuriy/ADAS",
+  "language": "",
+  "stargazersCount": 1,
+  "updatedAt": "2026-10-05T15:01:28Z",
+  "url": "https://github.com/wmikuriy/ADAS",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems"
+  ]
+ },
+ {
+  "description": "Automated Design of Agentic Systems in LangGraph ",
+  "fullName": "Louiszk/adas-langgraph",
+  "language": "Python",
+  "stargazersCount": 1,
+  "updatedAt": "2026-09-19T11:35:06Z",
+  "url": "https://github.com/Louiszk/adas-langgraph",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems"
+  ]
+ },
+ {
+  "description": "An intelligent web app that transforms simple English requests into professionally optimized prompts using the best prompt engineering framework — automatically.",
+  "fullName": "shayan-mir002/prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 1,
+  "updatedAt": "2026-07-24T07:05:47Z",
+  "url": "https://github.com/shayan-mir002/prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Prompt Optimizer v2.0.1 - AI code prompt optimization agent with full-stack project detection",
+  "fullName": "RusiLv/prompt-optimizer",
+  "language": "Python",
+  "stargazersCount": 1,
+  "updatedAt": "2026-06-04T02:19:59Z",
+  "url": "https://github.com/RusiLv/prompt-optimizer",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Autonomous AI research agent that plans, collects data, and synthesizes findings.",
+  "fullName": "TheFishPilot/AutonomousResearchAgent",
+  "language": "Python",
+  "stargazersCount": 1,
+  "updatedAt": "2026-02-04T13:43:54Z",
+  "url": "https://github.com/TheFishPilot/AutonomousResearchAgent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "Adaptation Automated Design of Agentic System",
+  "fullName": "nachoidot/ADAS_Fin",
+  "language": "",
+  "stargazersCount": 0,
+  "updatedAt": "2024-09-18T10:57:10Z",
+  "url": "https://github.com/nachoidot/ADAS_Fin",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems"
+  ]
+ },
+ {
+  "description": "Implementation of Automated Design of Agentic Systems (ADAS), exploring Meta Agent Search to generate, evaluate, and improve AI agent designs. Includes code and experiments inspired by the ICLR 2025 research paper.",
+  "fullName": "Marcus0047/Group_11-LLM-",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-10-28T18:02:57Z",
+  "url": "https://github.com/Marcus0047/Group_11-LLM-",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems",
+   "meta agent search"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "Praful-John2409/Automated-Design-of-Agentic-Systems-ADAS-Special-Topics-Agentic-AI",
+  "language": "",
+  "stargazersCount": 0,
+  "updatedAt": "2025-12-12T18:53:50Z",
+  "url": "https://github.com/Praful-John2409/Automated-Design-of-Agentic-Systems-ADAS-Special-Topics-Agentic-AI",
+  "query": "automated design of agentic systems",
+  "queries": [
+   "automated design of agentic systems"
+  ]
+ },
+ {
+  "description": "An evolutionary coding agent that autonomously generates and improves Python code using LLMs.",
+  "fullName": "Tom0Brien/LLM-Evolve",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2025-12-10T14:07:22Z",
+  "url": "https://github.com/Tom0Brien/LLM-Evolve",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "AlphaEvolve-inspired evolutionary coding agent with sandboxed execution, benchmark scoring, FastAPI, Streamlit, and OpenAI API support.",
+  "fullName": "PRINCE2-AI/evocode-scientist",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-10-26T06:30:42Z",
+  "url": "https://github.com/PRINCE2-AI/evocode-scientist",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "Evolutionary coding agent that beats GPT-4o on HumanEval and there benchmarks using free local models",
+  "fullName": "LuciferMors/evos",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-04-13T19:22:22Z",
+  "url": "https://github.com/LuciferMors/evos",
+  "query": "evolutionary coding agent",
+  "queries": [
+   "evolutionary coding agent"
+  ]
+ },
+ {
+  "description": "This repository implements the algorithm Meta Agent Search, combining LSTM Neural Networks and Sentiment Analysis.",
+  "fullName": "alejandro-ic-10/Smart-Agent",
+  "language": "Jupyter Notebook",
+  "stargazersCount": 0,
+  "updatedAt": "2024-11-21T14:40:48Z",
+  "url": "https://github.com/alejandro-ic-10/Smart-Agent",
+  "query": "meta agent search",
+  "queries": [
+   "meta agent search"
+  ]
+ },
+ {
+  "description": "Prompt optimization agent",
+  "fullName": "dioleti/nexum-ai-prompt-optimizer-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-10-17T03:49:38Z",
+  "url": "https://github.com/dioleti/nexum-ai-prompt-optimizer-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Prompt Optimization Agent",
+  "fullName": "ly143178/product-video-prompt-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-09-17T03:44:04Z",
+  "url": "https://github.com/ly143178/product-video-prompt-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Enterprise AI Agent: prompt-optimization-agent",
+  "fullName": "kogunlowo123/prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-09-20T00:27:17Z",
+  "url": "https://github.com/kogunlowo123/prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "Jahnavigajjela213/prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-03-26T17:05:29Z",
+  "url": "https://github.com/Jahnavigajjela213/prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "Aakash-2310/prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-03-10T08:08:14Z",
+  "url": "https://github.com/Aakash-2310/prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "A prompt generator agent with validation and test cases generated.",
+  "fullName": "thecodeshastra/prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-02-26T05:12:53Z",
+  "url": "https://github.com/thecodeshastra/prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Codex plugin and Skill for evidence-aware prompt auditing, optimization, decision gating, and static validation.",
+  "fullName": "xiaoatang/prompt-optimization-agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-08-21T07:16:20Z",
+  "url": "https://github.com/xiaoatang/prompt-optimization-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Auto-optimize your LLM prompts with a multi-step AI pipeline: complexity scoring, analysis, rewriting, and execution. Built for personal use, open to all.",
+  "fullName": "keyanUB/Prompt-Optimization-Agent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-03-01T22:05:50Z",
+  "url": "https://github.com/keyanUB/Prompt-Optimization-Agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Auto-Prompt Optimizer Agent for Insurance Certificate of Insurance documents - Azure AI Demo",
+  "fullName": "krscrest/Self-Evolving-AI-Agent-Demo",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-03-20T18:38:35Z",
+  "url": "https://github.com/krscrest/Self-Evolving-AI-Agent-Demo",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Claude Prompt Optimizer Agent. A research and field backed prompt quality reviewer for Claude Code",
+  "fullName": "dlxmax/prompt-optimizer",
+  "language": "Shell",
+  "stargazersCount": 0,
+  "updatedAt": "2026-11-01T04:39:23Z",
+  "url": "https://github.com/dlxmax/prompt-optimizer",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Logos — AI-powered prompt optimization agent. Write a small thing, get a production-grade prompt.",
+  "fullName": "xi-kki/logos",
+  "language": "JavaScript",
+  "stargazersCount": 0,
+  "updatedAt": "2026-09-21T00:13:18Z",
+  "url": "https://github.com/xi-kki/logos",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "End-to-end experiments: baseline measurement, prompt optimization, agent approaches, and literature-driven fine-tuning roadmap.",
+  "fullName": "jhehemann/llm-prediction-tasks-research-lab",
+  "language": "Jupyter Notebook",
+  "stargazersCount": 0,
+  "updatedAt": "2026-01-19T12:46:45Z",
+  "url": "https://github.com/jhehemann/llm-prediction-tasks-research-lab",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "AI-powered Prompt Optimization Agent built with n8n, Groq LLM, and Conversation Memory using Loop Engineering.",
+  "fullName": "Haneen-swe/LoopPrompt-AI",
+  "language": "",
+  "stargazersCount": 0,
+  "updatedAt": "2026-10-03T18:44:34Z",
+  "url": "https://github.com/Haneen-swe/LoopPrompt-AI",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Self-improving prompt optimizer: agent teams evolve your prompts and prove it on held-out tests",
+  "fullName": "WyattA-25/Whetstone",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-10-11T23:35:23Z",
+  "url": "https://github.com/WyattA-25/Whetstone",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "Recursive prompt optimization agent that refines, simplifies, and self-evolves prompts through iterative LLM self-prompting loops.",
+  "fullName": "Cyberbot777/recursive",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-08-29T22:03:54Z",
+  "url": "https://github.com/Cyberbot777/recursive",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "🤖 AI 智能提示词优化器 - 让 AI 工具更好地理解你的需求 | AI Prompt Optimizer Agent",
+  "fullName": "zuojipeng/zuo-mastra-prompt-agent",
+  "language": "",
+  "stargazersCount": 0,
+  "updatedAt": "2025-11-11T00:33:28Z",
+  "url": "https://github.com/zuojipeng/zuo-mastra-prompt-agent",
+  "query": "prompt optimization agent",
+  "queries": [
+   "prompt optimization agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "Bharadwaj1433/AutonomousResearchAgent",
+  "language": "Python",
+  "stargazersCount": 0,
+  "updatedAt": "2026-07-08T13:16:21Z",
+  "url": "https://github.com/Bharadwaj1433/AutonomousResearchAgent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ },
+ {
+  "description": "",
+  "fullName": "liunian66666/AutonomousResearchAgent",
+  "language": "",
+  "stargazersCount": 0,
+  "updatedAt": "2026-05-08T07:49:58Z",
+  "url": "https://github.com/liunian66666/AutonomousResearchAgent",
+  "query": "autonomous research agent",
+  "queries": [
+   "autonomous research agent"
+  ]
+ }
+]
