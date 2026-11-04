@@ -1,0 +1,558 @@
+{
+ "2309.03409": {
+  "title": "Large Language Models as Optimizers",
+  "published": "2023-09-07T00:07:15Z"
+ },
+ "2404.01413": {
+  "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+  "published": "2024-04-01T18:31:24Z"
+ },
+ "2405.15793": {
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "published": "2024-05-06T17:41:33Z"
+ },
+ "2308.10144": {
+  "title": "ExpeL: LLM Agents Are Experiential Learners",
+  "published": "2023-08-20T03:03:34Z"
+ },
+ "2407.01502": {
+  "title": "AI Agents That Matter",
+  "published": "2024-07-01T17:48:14Z"
+ },
+ "2406.07496": {
+  "title": "TextGrad: Automatic \"Differentiation\" via Text",
+  "published": "2024-06-11T17:32:21Z"
+ },
+ "2409.07429": {
+  "title": "Agent Workflow Memory",
+  "published": "2024-09-11T17:21:00Z"
+ },
+ "2502.18864": {
+  "title": "Accelerating scientific discovery with Co-Scientist",
+  "published": "2025-02-26T06:17:13Z"
+ },
+ "2305.16291": {
+  "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "published": "2023-05-25T17:46:38Z"
+ },
+ "2303.17651": {
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "published": "2023-03-30T18:30:01Z"
+ },
+ "2408.06292": {
+  "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "published": "2024-08-12T16:58:11Z"
+ },
+ "2502.02533": {
+  "title": "Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies",
+  "published": "2025-02-04T17:56:44Z"
+ },
+ "2310.03714": {
+  "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+  "published": "2023-10-05T17:37:25Z"
+ },
+ "2401.10020": {
+  "title": "Self-Rewarding Language Models",
+  "published": "2024-01-18T14:43:47Z"
+ },
+ "2410.10762": {
+  "title": "AFlow: Automating Agentic Workflow Generation",
+  "published": "2024-10-14T17:40:40Z"
+ },
+ "2503.00735": {
+  "title": "LADDER: Self-Improving LLMs Through Recursive Problem Decomposition",
+  "published": "2025-03-02T05:16:43Z"
+ },
+ "2504.08066": {
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "published": "2025-04-10T18:44:41Z"
+ },
+ "2304.03442": {
+  "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+  "published": "2023-04-07T01:55:19Z"
+ },
+ "2303.11366": {
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "published": "2023-03-20T18:08:50Z"
+ },
+ "2203.14465": {
+  "title": "STaR: Bootstrapping Reasoning With Reasoning",
+  "published": "2022-03-28T03:12:15Z"
+ },
+ "2408.08435": {
+  "title": "Automated Design of Agentic Systems",
+  "published": "2024-08-15T21:59:23Z"
+ },
+ "2407.19594": {
+  "title": "Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge",
+  "published": "2024-07-28T21:58:28Z"
+ },
+ "2503.14499": {
+  "title": "Measuring AI Ability to Complete Long Software Tasks",
+  "published": "2025-03-18T17:59:31Z"
+ },
+ "2410.04444": {
+  "title": "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
+  "published": "2024-10-06T10:49:40Z"
+ },
+ "2504.13837": {
+  "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+  "published": "2025-04-18T17:59:56Z"
+ },
+ "2605.02913": {
+  "title": "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning",
+  "published": "2026-04-08T00:53:29Z"
+ },
+ "2504.15228": {
+  "title": "A Self-Improving Coding Agent",
+  "published": "2025-04-21T16:58:18Z"
+ },
+ "2506.11425": {
+  "title": "Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards",
+  "published": "2025-06-13T02:46:53Z"
+ },
+ "2508.05004": {
+  "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+  "published": "2025-08-07T03:38:16Z"
+ },
+ "2506.13131": {
+  "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+  "published": "2025-06-16T06:37:18Z"
+ },
+ "2603.08660": {
+  "title": "How Far Can Unsupervised RLVR Scale LLM Training?",
+  "published": "2026-03-09T17:38:11Z"
+ },
+ "2507.21046": {
+  "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
+  "published": "2025-07-28T17:59:05Z"
+ },
+ "2603.25681": {
+  "title": "Self-Improvement of Large Language Models: A Technical Overview and Future Outlook",
+  "published": "2026-03-26T17:32:37Z"
+ },
+ "2512.16301": {
+  "title": "Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills",
+  "published": "2025-12-18T08:38:51Z"
+ },
+ "2505.22954": {
+  "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+  "published": "2025-05-29T00:26:15Z"
+ },
+ "2604.08988": {
+  "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
+  "published": "2026-04-10T05:49:50Z"
+ },
+ "2505.21444": {
+  "title": "Can Large Reasoning Models Self-Train?",
+  "published": "2025-05-27T17:16:00Z"
+ },
+ "2506.10943": {
+  "title": "Self-Adapting Language Models",
+  "published": "2025-06-12T17:48:13Z"
+ },
+ "2507.19457": {
+  "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+  "published": "2025-07-25T17:42:32Z"
+ },
+ "2510.04860": {
+  "title": "Alignment Tipping Process: How Self-Evolution Pushes LLM Agents Off the Rails",
+  "published": "2025-10-06T14:48:39Z"
+ },
+ "2508.16153": {
+  "title": "Memento: Fine-tuning LLM Agents without Fine-tuning LLMs",
+  "published": "2025-08-22T07:25:30Z"
+ },
+ "2603.06333": {
+  "title": "SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement",
+  "published": "2026-03-06T14:44:51Z"
+ },
+ "2604.25850": {
+  "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+  "published": "2026-04-28T16:55:02Z"
+ },
+ "2510.04399": {
+  "title": "On The Statistical Limits of Self-Improving Agents",
+  "published": "2025-10-05T23:52:16Z"
+ },
+ "2510.10232": {
+  "title": "SGM: A Statistical Godel Machine for Risk-Controlled Recursive Self-Modification",
+  "published": "2025-10-11T14:09:37Z"
+ },
+ "2505.03335": {
+  "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+  "published": "2025-05-06T09:08:00Z"
+ },
+ "2504.16084": {
+  "title": "TTRL: Test-Time Reinforcement Learning",
+  "published": "2025-04-22T17:59:56Z"
+ },
+ "2509.02547": {
+  "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+  "published": "2025-09-02T17:46:26Z"
+ },
+ "2510.21614": {
+  "title": "Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+  "published": "2025-10-24T16:19:41Z"
+ },
+ "2601.12538": {
+  "title": "A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents",
+  "published": "2026-01-18T18:58:23Z"
+ },
+ "2605.14271": {
+  "title": "Auditing Agent Harness Safety",
+  "published": "2026-05-14T02:14:28Z"
+ },
+ "2605.13821": {
+  "title": "Harnessing Agentic Evolution",
+  "published": "2026-05-13T17:45:16Z"
+ },
+ "2607.10113": {
+  "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
+  "published": "2026-07-11T04:29:28Z"
+ },
+ "2606.20683": {
+  "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+  "published": "2026-06-14T05:40:16Z"
+ },
+ "2606.28374": {
+  "title": "Recursive Self-Evolving Agents via Held-Out Selection",
+  "published": "2026-06-17T14:53:36Z"
+ },
+ "2606.06324": {
+  "title": "From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws",
+  "published": "2026-06-04T15:58:30Z"
+ },
+ "2607.13683": {
+  "title": "HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution",
+  "published": "2026-07-15T10:26:26Z"
+ },
+ "2608.07645": {
+  "title": "Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution",
+  "published": "2026-08-07T16:46:44Z"
+ },
+ "2606.17546": {
+  "title": "SEAGym: An Evaluation Environment for Self-Evolving LLM Agents",
+  "published": "2026-06-16T05:50:55Z"
+ },
+ "2606.08106": {
+  "title": "PACE: Anytime-Valid Acceptance Tests for Self-Evolving Agents",
+  "published": "2026-06-06T11:12:11Z"
+ },
+ "2606.26057": {
+  "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
+  "published": "2026-06-24T17:32:27Z"
+ },
+ "2607.24300": {
+  "title": "Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents",
+  "published": "2026-07-27T11:45:14Z"
+ },
+ "2606.01770": {
+  "title": "Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams",
+  "published": "2026-06-01T06:51:14Z"
+ },
+ "2606.14249": {
+  "title": "HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry",
+  "published": "2026-06-12T08:27:11Z"
+ },
+ "2607.13104": {
+  "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+  "published": "2026-07-14T09:12:57Z"
+ },
+ "2605.09315": {
+  "title": "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
+  "published": "2026-05-10T04:20:24Z"
+ },
+ "2608.02670": {
+  "title": "Permission Denied: Policy-Graded Evaluation of Coding Agents in Hardened Environments",
+  "published": "2026-08-02T14:26:12Z"
+ },
+ "2606.28639": {
+  "title": "Algorithmic Unverifiability of Safety for Fixed and Recursively Self-Improving Systems",
+  "published": "2026-06-26T22:51:16Z"
+ },
+ "2607.14159": {
+  "title": "MemoHarness: Agent Harnesses That Learn from Experience",
+  "published": "2026-07-14T21:22:18Z"
+ },
+ "2607.03691": {
+  "title": "Don't Blame the Large Language Model: How Agent Harness Evolution Shapes Coding Agent Quality",
+  "published": "2026-07-04T03:55:25Z"
+ },
+ "2605.13941": {
+  "title": "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+  "published": "2026-05-13T17:12:44Z"
+ },
+ "2605.06716": {
+  "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+  "published": "2026-05-07T03:38:48Z"
+ },
+ "2607.13083": {
+  "title": "Phantom Guardrails: When Self-Improving Agent Harnesses Fix Failures That Never Happened",
+  "published": "2026-07-13T10:14:15Z"
+ },
+ "2607.07663": {
+  "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+  "published": "2026-07-08T17:19:50Z"
+ },
+ "2608.05179": {
+  "title": "Autonomous Research Agents: A Survey of AI Scientists and the Verification Gap",
+  "published": "2026-06-29T01:32:49Z"
+ },
+ "2608.17597": {
+  "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+  "published": "2026-08-18T10:03:58Z"
+ },
+ "2609.00069": {
+  "title": "Auditing Harness Tampering in Self-Improving Agents",
+  "published": "2026-08-30T17:18:56Z"
+ },
+ "2609.24972": {
+  "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+  "published": "2026-09-21T17:54:49Z"
+ },
+ "2608.12851": {
+  "title": "Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents",
+  "published": "2026-08-13T05:47:43Z"
+ },
+ "2608.29596": {
+  "title": "A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security",
+  "published": "2026-08-30T06:36:42Z"
+ },
+ "2610.00347": {
+  "title": "Authorization for Self-Modifying AI Agent Populations: Conserving Authority across Replacement, Forking, and Rollback",
+  "published": "2026-09-29T20:09:59Z"
+ },
+ "2609.13406": {
+  "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+  "published": "2026-09-11T18:15:09Z"
+ },
+ "2609.26457": {
+  "title": "Recursive self-improvement of AI research agents",
+  "published": "2026-09-22T14:12:13Z"
+ },
+ "2608.11243": {
+  "title": "The Off-Support Barrier: Why Semantic Safety Constraints Are Not Learning-Problem Invariants, and What Follows for Prior Design, Containment, and Verification",
+  "published": "2026-08-01T11:18:44Z"
+ },
+ "2609.04665": {
+  "title": "Harness-agnostic detection and immunization of reward hacking in self-evolving language models",
+  "published": "2026-09-04T02:57:34Z"
+ },
+ "2608.28363": {
+  "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses",
+  "published": "2026-08-28T14:15:36Z"
+ },
+ "2609.02246": {
+  "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
+  "published": "2026-09-02T07:54:23Z"
+ },
+ "2609.01679": {
+  "title": "A Survey on Self-Improving Test-Time Intelligence: Feedback-Driven Adapting, Learning, and Scaling at Inference",
+  "published": "2026-09-01T11:41:39Z"
+ },
+ "2610.00093": {
+  "title": "Safety in Self-Evolving Agents: A Survey",
+  "published": "2026-09-08T05:04:40Z"
+ },
+ "2609.27612": {
+  "title": "RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement",
+  "published": "2026-09-23T09:29:04Z"
+ },
+ "2608.21867": {
+  "title": "MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance",
+  "published": "2026-08-22T09:25:23Z"
+ },
+ "2608.18104": {
+  "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
+  "published": "2026-06-10T10:22:56Z"
+ },
+ "2609.36043": {
+  "title": "SAGE: A Statistical Acceptance Gate for Self-Evolving Agents",
+  "published": "2026-09-28T18:07:45Z"
+ },
+ "2610.04178": {
+  "title": "SHarP: Saliency-based Pruning of Agent Harnesses",
+  "published": "2026-10-03T00:41:14Z"
+ },
+ "2609.08149": {
+  "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
+  "published": "2026-09-08T02:29:58Z"
+ },
+ "2609.01222": {
+  "title": "What's in Your Agent's Context? Context Privilege Escalation Attacks against AI Agent Harness",
+  "published": "2026-09-01T13:26:21Z"
+ },
+ "2609.08175": {
+  "title": "A Theory of Reliable Self-Evolution for Agent Harnesses",
+  "published": "2026-09-08T03:04:39Z"
+ },
+ "2610.02616": {
+  "title": "VERSE: Verified Self-Evolving Optimizer for Agent Harnesses",
+  "published": "2026-10-02T00:16:30Z"
+ },
+ "2609.40169": {
+  "title": "Learning from Research: Toward Lifelong Agent Harness Evolution",
+  "published": "2026-09-30T17:00:38Z"
+ },
+ "2609.33123": {
+  "title": "Compositional Safety Failures in Harness Evolution: Identification and Runtime Monitoring",
+  "published": "2026-09-27T02:43:29Z"
+ },
+ "2610.11781": {
+  "title": "Skill-V: Verifiable Self-Evolving Skill Library for Interactive Agents",
+  "published": "2026-10-08T11:59:42Z"
+ },
+ "2610.25119": {
+  "title": "Memory as Belief: Bayesian Evolution of Memory for Self-Evolving LLM Agents",
+  "published": "2026-10-18T08:49:17Z"
+ },
+ "2610.22984": {
+  "title": "Self-Evolving Agents Can Repair Failures but Struggle to Generalize from Them",
+  "published": "2026-10-16T06:10:01Z"
+ },
+ "2610.10611": {
+  "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+  "published": "2026-10-07T06:47:49Z"
+ },
+ "2610.10310": {
+  "title": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+  "published": "2026-10-07T16:05:15Z"
+ },
+ "2610.15964": {
+  "title": "Small but Mighty: Test Suites as Improvement Signals for Self-Evolving Agents",
+  "published": "2026-10-11T22:36:54Z"
+ },
+ "2610.13912": {
+  "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+  "published": "2026-10-09T17:50:30Z"
+ },
+ "2610.14488": {
+  "title": "Names Are Not Objects: Object-Bound Confinement for Compromised AI Coding Agents",
+  "published": "2026-10-10T02:38:11Z"
+ },
+ "2610.04921": {
+  "title": "Complex Agents, Shallow Tests: Demystifying and Enhancing Test Adequacy of Agent Harness in the Wild",
+  "published": "2026-10-04T04:03:10Z"
+ },
+ "2610.21646": {
+  "title": "The Self-Improvement Problem",
+  "published": "2026-10-15T10:27:00Z"
+ },
+ "2610.25858": {
+  "title": "Are Self-Evolving Agents Continual Learners?",
+  "published": "2026-10-19T06:12:45Z"
+ },
+ "2610.19591": {
+  "title": "L3M: A Verifiable Harness and Runtime for Self-Extending and Self-Improving Agents",
+  "published": "2026-10-14T05:03:06Z"
+ },
+ "2610.23599": {
+  "title": "From Trajectories to Differentiated Skills: Cognitive Differentiation for Self-Improving Agents",
+  "published": "2026-10-16T15:16:56Z"
+ },
+ "2610.14977": {
+  "title": "EnactOpt: Diagnosis-Guided Harness Evolution for Embodied Agents",
+  "published": "2026-10-10T14:51:25Z"
+ },
+ "2610.18807": {
+  "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+  "published": "2026-10-13T17:46:25Z"
+ },
+ "2610.17609": {
+  "title": "Verifier-Harness Co-Evolution for Training-Free Self-Improvement on Open-Ended Tasks",
+  "published": "2026-10-13T02:29:40Z"
+ },
+ "2610.22987": {
+  "title": "From Approval to Abuse: Privilege Escalation Attacks on Harness-Protected Coding Agents",
+  "published": "2026-10-16T06:13:06Z"
+ },
+ "2610.25126": {
+  "title": "Trackable Skill Library Lifecycle Management for Agentic Reinforcement Learning",
+  "published": "2026-10-18T09:15:03Z"
+ },
+ "2610.20845": {
+  "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+  "published": "2026-10-14T19:29:45Z"
+ },
+ "2610.20431": {
+  "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+  "published": "2026-10-14T16:21:45Z"
+ },
+ "2610.24630": {
+  "title": "Selm: Self-Evolving Library Management for Multi-Skill Agent Optimization",
+  "published": "2026-10-17T11:07:02Z"
+ },
+ "2610.11794": {
+  "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+  "published": "2026-10-08T12:06:54Z"
+ },
+ "2610.14118": {
+  "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+  "published": "2026-10-09T08:52:34Z"
+ },
+ "2610.23791": {
+  "title": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+  "published": "2026-10-16T17:20:19Z"
+ },
+ "2610.11464": {
+  "title": "Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents",
+  "published": "2026-10-08T08:13:53Z"
+ },
+ "2610.33046": {
+  "title": "Organon : From Evolutionary Search to Recursive Self-Improving Agents for Scientific Discovery",
+  "published": "2026-10-17T02:27:47Z"
+ },
+ "2611.02797": {
+  "title": "SelfImprove-Bench: Evaluating Generalization in Self-Improving Agents",
+  "published": "2026-11-02T09:08:12Z"
+ },
+ "2611.04952": {
+  "title": "Artifact-to-Capability: Diagnosing Breaks in Capability Formation of Self-Evolving Agents in a Controlled Environment",
+  "published": "2026-11-03T14:12:22Z"
+ },
+ "2611.04579": {
+  "title": "FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions",
+  "published": "2026-11-03T09:39:21Z"
+ },
+ "2610.35193": {
+  "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+  "published": "2026-10-26T10:46:03Z"
+ },
+ "2610.30042": {
+  "title": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
+  "published": "2026-10-21T17:02:28Z"
+ },
+ "2610.38392": {
+  "title": "Masked Erosion: How Acceptance Gates Lose Redundant Safeguards in Self-Improving Agents",
+  "published": "2026-10-28T07:29:55Z"
+ },
+ "2610.34577": {
+  "title": "Rethinking Verification in Agent Harnesses",
+  "published": "2026-10-25T21:17:26Z"
+ },
+ "2610.37276": {
+  "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
+  "published": "2026-10-27T14:06:26Z"
+ },
+ "2610.40753": {
+  "title": "\"Shall We Approve?\" Consequence-Aware Approval for Autonomous Coding Agents",
+  "published": "2026-10-29T16:20:20Z"
+ },
+ "2610.27610": {
+  "title": "Auditing the Product, Not the Recursion: The Evaluation Evidence Behind Recursive Self-Improvement Claims",
+  "published": "2026-10-20T04:23:05Z"
+ },
+ "2610.32813": {
+  "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+  "published": "2026-10-23T15:47:47Z"
+ },
+ "2610.39417": {
+  "title": "Well-Specified and Well-Tested? Assessing SWE-bench-Style Datasets with a Self-Evolving Agent",
+  "published": "2026-10-29T05:59:36Z"
+ },
+ "2610.38266": {
+  "title": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
+  "published": "2026-10-28T04:34:16Z"
+ }
+}
