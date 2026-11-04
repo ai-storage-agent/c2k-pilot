@@ -1,0 +1,99 @@
+{
+  "archive": {
+    "kind": "analysis-report",
+    "title": "国内服务器厂商 E3.S 支持情况分析",
+    "slug": "e3s-domestic-server-support",
+    "created_at": "2026-11-04",
+    "created_by": "ai-storage-agent",
+    "ticket": "46d010e328561447789ffc540b2af02f",
+    "language": "zh-CN",
+    "method": "公开产品页、用户指南与产品白皮书桌面研究；未做整机实测。"
+  },
+  "scope": {
+    "as_of": "2026-11-04",
+    "vendors": [
+      "浪潮信息",
+      "超聚变",
+      "新华三",
+      "联想",
+      "宁畅",
+      "华为",
+      "中科曙光",
+      "中兴",
+      "宝德",
+      "长城"
+    ],
+    "form_factors": [
+      "E3.S 1T",
+      "E3.S 2T",
+      "E1.S",
+      "U.2"
+    ],
+    "claims": {
+      "inspur_nf5280g7_e3s_bays": 24,
+      "xfusion_1288h_v7_e3s_bays": 20,
+      "xfusion_2288h_v7_e3s_bays": 48,
+      "h3c_r4900_g7_e3s_e1s_bays": 40,
+      "lenovo_sr630_v3_e3s_1t_max": 16,
+      "nettrix_r620_g50_e3s_or_e1s_bays": 36,
+      "h3c_r4900_g6_e1s_bays": 32
+    }
+  },
+  "documents": [
+    "README.md",
+    "metadata.json",
+    "e3s-analysis-2026-11.docx"
+  ],
+  "sources": [
+    {
+      "title": "超聚变机架服务器规格页",
+      "url": "https://www.xfusion.com/cn/product/rack-server"
+    },
+    {
+      "title": "浪潮信息 NF5280G7 产品页",
+      "url": "https://www.ieisystem.com/product/server/10760.html"
+    },
+    {
+      "title": "浪潮信息 NF5280G7 技术白皮书",
+      "url": "https://ieisystem.com/global/file/2024-04-22/17137657952202c975afc8e82c47a62018f0466c5947c57.pdf"
+    },
+    {
+      "title": "新华三 UniServer R4900 G7",
+      "url": "https://www.h3c.com/cn/Products_And_Solution/Server/H3C/Products/RackServer/Products_Series/Dualway_Server/R4900_G7/"
+    },
+    {
+      "title": "新华三 UniServer R4900 G6 用户指南",
+      "url": "http://www.h3c.com/en/d_202310/1955282_294551_0.htm"
+    },
+    {
+      "title": "宁畅 R620 G50 产品页",
+      "url": "https://www.nettrix.com.cn/product/1576.html"
+    },
+    {
+      "title": "联想 ThinkSystem SR630 V3 产品指南",
+      "url": "https://lenovopress.lenovo.com/lp1971.pdf"
+    },
+    {
+      "title": "联想 SR630 V3 16×E3.S 渠道配置（辅助）",
+      "url": "https://hardwaredirect.com/server-lenovo-thinksystem-sr630-v3-16xe3-s-nvme-with-2x-gold-5515-512gb-ram-4x-3-84tb-nvme-e1-s-2x10gbe-base-t-1x-nvidia-a2-16gb-2x-psu-1100w-rails-bezel-xcc2-standard"
+    },
+    {
+      "title": "忆恒创源 PBlaze7 7940",
+      "url": "https://www.memblaze.com/cn/product"
+    },
+    {
+      "title": "大普微 Gen5 E3.S 方案",
+      "url": "https://www.dapustor.com/news/130.html"
+    },
+    {
+      "title": "SNIA EDSFF 标准",
+      "url": "https://www.snia.org/tech_activities/standards/curr_standards/edsff"
+    }
+  ],
+  "limitations": [
+    "桌面研究，未做整机实测。",
+    "厂商 CTO 配置、区域报价、盘源和产品代际会变化。",
+    "公开资料未见不等于不支持，部分配置仅通过项目投标或行业客户提供。",
+    "报告不包含 Feishu 对话、客户信息、未公开报价或厂商内部资料。"
+  ]
+}
