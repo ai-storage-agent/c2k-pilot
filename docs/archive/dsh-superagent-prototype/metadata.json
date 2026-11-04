@@ -1,0 +1,81 @@
+{
+  "archive": {
+    "kind": "research-archive",
+    "title": "dsh-superagent-prototype research archive",
+    "created_at": "2026-11-04",
+    "created_by": "ai-storage-agent",
+    "ticket": "a28d081da0ab86d38c26e0306f59e52a",
+    "language": "zh-CN",
+    "method": "Pinned-commit source review; not a GitHub repository archive and not a source-code copy."
+  },
+  "upstream": {
+    "repository": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "description": "Towards a More Autonomous Agent System",
+    "default_branch": "main",
+    "commit": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
+    "tree": "3efbb036e5a56183c6bf642e2e1856a1f64e7be3",
+    "commit_message": "feat: add the dsh-superagent research prototype",
+    "commit_date": "2026-10-31T20:05:39+08:00",
+    "commit_date_utc": "2026-10-31T12:05:39Z",
+    "commit_author": "DeepSeek Harness Team <team@dsh.dev>",
+    "license": "MIT",
+    "visibility": "public",
+    "history_commits": 1,
+    "tags": [],
+    "releases": [],
+    "stars": 17412,
+    "forks": 1887,
+    "watchers": 114,
+    "github_size_field": 37,
+    "git_pack_kib": 782.77,
+    "tree_archive_bytes": 2785280,
+    "metrics_at": "2026-11-04T05:47:58Z"
+  },
+  "snapshot": {
+    "tracked_files": 216,
+    "typescript_files": 177,
+    "tracked_lines": 37111,
+    "src_files": 111,
+    "src_lines": 15587,
+    "test_spec_files": 59,
+    "test_fixture_files": 6,
+    "test_cases": 1197,
+    "docs": 9,
+    "prompts": 15,
+    "skills": 2,
+    "schema_version": 11,
+    "package_name": "dsh-superagent",
+    "package_version": "0.1.0",
+    "package_private": true,
+    "engines": {
+      "node": "^22.19.0 || >=24.0.0",
+      "dsh": "^0.2.1-alpha.2"
+    }
+  },
+  "verification": {
+    "typecheck": "pass",
+    "vitest_list": "1197 tests in 59 files",
+    "tests_clean_environment": "1196/1197 pass",
+    "tests_worker_environment": "1194/1197 pass",
+    "build": "not run (avoid rewriting the running deployment's lib/)",
+    "notes": [
+      "Two runtime.spec.ts failures under the running deployment are caused by inherited GIT_CONFIG_GLOBAL/GIT_CONFIG_NOSYSTEM and worker-bin PATH.",
+      "One sources.spec.ts Feishu event-consumer health test is order/timing sensitive: it fails in the full file and passes alone."
+    ]
+  },
+  "documents": [
+    "README.md",
+    "01-overview.md",
+    "02-architecture.md",
+    "03-authorization-and-execution.md",
+    "04-code-map.md",
+    "05-assessment.md",
+    "metadata.json"
+  ],
+  "limitations": [
+    "Static source review, not a line-by-line audit of all 37k lines.",
+    "No real GitHub/Feishu end-to-end deployment rehearsal.",
+    "No performance, fuzz, or security testing.",
+    "Upstream may change after the pinned commit."
+  ]
+}
