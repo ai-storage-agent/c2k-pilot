@@ -1,0 +1,65 @@
+{
+  "archive": {
+    "kind": "code-analysis",
+    "title": "DS4 (DwarfStar) decode 阶段稀疏专家 SSD 读取链路分析",
+    "created_at": "2026-11-06",
+    "created_by": "ai-storage-agent",
+    "ticket": "bca15dd0547dc1a6f83354c20696429e",
+    "language": "zh-CN",
+    "method": "只读源码走查（Metal/CUDA/ROCm 三后端 + 公共层）+ 直接解析目标 GGUF 张量表 + 运行仓库自带单元测试。未做真机 decode 计时。"
+  },
+  "question": {
+    "source": "feishu:oc_344d40a5d4d8b4d44d47ccd61c7183da",
+    "trigger_id": "8a7d5cd95249e7ac3b2c003b924762ea",
+    "text": "分析一下DS4框架中decode阶段稀疏专家是怎么从SSD盘上读出来的",
+    "language": "zh-CN"
+  },
+  "answer": {
+    "summary": "Decode 阶段路由专家不通过 mmap 缺页读取，而是维护一个固定槽位数的专家缓存：每 token 每层由 router 选出 top-k 专家 id 并读回主机，命中槽位直接计算，未命中者用 pread() 按专家粒度（gate/up/down 三段）读入对齐暂存/槽位缓冲并异步上传到加速器，MoE kernel 通过槽位指针/地址表消费；读盘与共享专家及已驻留专家的计算重叠。",
+    "key_points": [
+      "缓存键为 (model_map, layer, expert, gate/up/down 绝对偏移, 专家字节数)。",
+      "Uniform 量化的 DeepSeek 层 decode 时不把 ffn_*_exps 放进 mmap span（ds4.c:8524）。",
+      "Metal 用线程池 + pread 直接读进 MTLBuffer contents（统一内存，无需单独 H2D）；CUDA/ROCm 用 O_DIRECT + pinned staging + cudaMemcpyAsync 上传。",
+      "延迟隐藏：异步 early-load、resident/missing 拆分计算、F_RDADVISE/madvise 预读。",
+      "淘汰：Metal 为路由热度(LFU)+LRU 且每 16 decode token 衰减；CUDA/ROCm 为 LRU。",
+      "decode 单 token 的 CUDA 读序默认保持路由顺序、不排序。"
+    ]
+  },
+  "model_facts": {
+    "gguf": "DeepSeek-V4.1-Flash-1017-IQ2_XXS-Q2_K-imatrix.gguf",
+    "routed_layers": 40,
+    "n_expert": 384,
+    "n_expert_used": 6,
+    "gate_up_type": "IQ2_XXS",
+    "down_type": "Q2_K",
+    "per_expert_bytes": 9953280,
+    "total_routed_bytes_gib": 142.383
+  },
+  "snapshot": {
+    "worktree": "/home/langs/ds4-new (工作副本)",
+    "upstream": "antirez/ds4 main b3f50180ec2c7324892be1f50bc83555ccb8d5e7",
+    "upstream_byte_identical_files": [
+      "ds4_metal.m",
+      "ds4_cuda.cu",
+      "ds4_ssd.c",
+      "ds4_gpu.h",
+      "rocm/ds4_rocm_runtime.cuh"
+    ],
+    "ds4_c_local_working_copy": true,
+    "note": "ds4.c 在分析期间被本地并发修改（14:23:34 -> 14:32:20），因此未与上游做字节比对；引用的行号在最后一次观察到的 revision 上复核过。"
+  },
+  "verification": {
+    "code_walkthrough": "Metal / CUDA / ROCm + 公共层 decode 路径逐函数走查；覆盖 pread 调用点、缓存键、槽位分配、淘汰、消费四段。",
+    "gguf_parse": "直接解析 GGUF 张量表核对单专家与总规模。",
+    "unit_test": {
+      "command": "make test-ssd-cache",
+      "result": "SSD cache sizing: PASS"
+    },
+    "live_decode": "未执行：本机已有另一个 ds4 进程持有实例锁（'another ds4 process is already running'）。"
+  },
+  "limitations": [
+    "没有真机 decode 计时与命中率数据。",
+    "未复现 Metal 路径（本机为 AMD Strix Halo / ROCm）。",
+    "行号基于 2026-11-06 的 ds4 工作副本，上游后续改动可能造成漂移。"
+  ]
+}
