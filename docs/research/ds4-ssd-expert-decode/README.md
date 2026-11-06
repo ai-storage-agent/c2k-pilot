@@ -100,7 +100,7 @@ flowchart TD
 ### CUDA（`ds4_cuda.cu`）
 
 - `cuda_stream_selected_cache_begin_load`（`:29015`）先 `cudaStreamSynchronize(cuda_decode_stream())` 确保上一 token 复用安全，然后逐专家分配/回收槽位。
-- 读走 `cuda_model_copy_to_device_streamed`（`:2367`）：默认 `O_DIRECT` 打开设备对齐的 fd，使用 `cudaMallocHost` 的 pinned staging 环（4 个 64 MB 缓冲，`cuda_model_copy_chunk_bytes`，`:2149`），`pread` → `cudaMemcpyAsync` H2D → event 记录背压。O_DIRECT 失败（EINVAL/ENOTSUP 等）自动退回普通 fd。
+- 读走 `cuda_model_copy_to_device_streamed`（`:2367`）：O_DIRECT fd 在 `ds4_gpu_set_model_fd`（`:4677` 起）注册模型 fd 时打开（`DS4_CUDA_NO_DIRECT_IO` 可关），对齐后读进 `cudaMallocHost` 的 pinned staging 环（默认 4 个 64 MB 缓冲，`cuda_model_copy_chunk_bytes`，`:2149`），再 `cudaMemcpyAsync` H2D 并用 event 做背压。某次 O_DIRECT 读失败（EINVAL/ENOTSUP/EFAULT 等）只影响该次、退回普通 fd。
 - 未排序模式下每个专家三段读、异步提交；排序模式（`DS4_CUDA_SSD_SORT_SELECTED_READS=1` 或 prefill）按文件偏移合并相邻同段读（`:29199` 起）。
 - 预填阶段还支持「下一层整层预取」开关 `DS4_CUDA_ENABLE_SSD_PREFETCH`（`ds4_gpu_stream_expert_cache_prefetch`，`:29408`），decode 默认关闭。
 
@@ -138,8 +138,10 @@ flowchart TD
 | `DS4_METAL_DISABLE_STREAMING_EXPERT_EARLY_LOAD` | 关 Metal 异步 early-load |
 | `DS4_METAL_STREAMING_EXPERT_PREAD_THREADS` / `..._PREAD_POOL` | Metal 读线程数与线程池 |
 | `DS4_CUDA_SSD_SORT_SELECTED_READS` / `DS4_CUDA_DISABLE_SSD_SORT_SELECTED_READS` | CUDA 单 token 读序（默认不排序） |
-| `DS4_CUDA_ENABLE_SSD_PREFETCH` / `DS4_CUDA_DISABLE_SSD_PREFETCH` | CUDA 下一层整层预取 |
-| `DS4_ROCM_STREAM_READ_WORKERS` / `DS4_ROCM_STREAM_NO_DIRECT` / `DS4_ROCM_STREAM_FREE_RESERVE_GB` | ROCm 读池、禁用 O_DIRECT、空闲预留 |
+| `DS4_CUDA_ENABLE_SSD_PREFETCH` / `DS4_CUDA_DISABLE_SSD_PREFETCH` | CUDA 下一层整层预取（disable 优先） |
+| `DS4_METAL_STREAMING_EXPERT_AUTO_PRELOAD_CAP` | 启动自动预填专家的上限（默认 4096） |
+| `DS4_CUDA_NO_DIRECT_IO` / `DS4_ROCM_STREAM_NO_DIRECT` | 关闭 CUDA / ROCm 的 O_DIRECT 读 |
+| `DS4_ROCM_STREAM_READ_WORKERS` / `DS4_ROCM_STREAM_FREE_RESERVE_GB` | ROCm 读池线程数、缓存空闲预留 |
 | `DS4_METAL_STREAMING_EXPERT_TIMING_SUMMARY`、`DS4_ROCM_STREAM_CACHE_STATS`、`DS4_ROCM_STREAM_READ_PROFILE` | 读写/命中/延迟统计 |
 
 ## 11. 本次分析的验证程度与限制
