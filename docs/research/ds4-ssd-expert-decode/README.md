@@ -113,7 +113,7 @@ flowchart TD
 ## 7. 延迟隐藏（decode 特有的三个手段）
 
 1. **异步 early-load / 后台读池**：Metal 有一个专用服务线程（`metal_graph_selected_async_load_worker_main`，`ds4.c:23677`），GPU 上算 router 的同时主机就能拿到 selected id 并开始读。若服务线程不能安全等待在途条目，`ids_ok` 语义让主线程用同一组 id 同步重试（`ds4.c:27071` 附近）。
-2. **resident/missing 拆分**：命中与未命中专家分开计算，命中部分先跑，读盘被盖住。Metal 侧要求 miss 数 ≥3 且缓存已有一定规模才拆（`ds4_gpu_stream_expert_split_worthwhile`，`ds4_metal.m:13520`）；ROCm 单 token 走 `cuda_stream_selected_apply`（`ds4_rocm_moe_launch.cuh:702`）的 resident/missing mask。
+2. **resident/missing 拆分**：命中与未命中专家分开计算，命中部分先跑，读盘被盖住。Metal 侧要求 miss 数 ≥3、decode token 数 ≥4，且缓存条目数达到 `min(1024, 预算/2)` 才拆（`ds4_gpu_stream_expert_split_worthwhile` / `_split_ready`，`ds4_metal.m:13520`）；ROCm 单 token 走 `cuda_stream_selected_apply`（`ds4_rocm_moe_launch.cuh:702`）的 resident/missing mask。
 3. **读前提示**：`F_RDADVISE` / `posix_madvise(POSIX_MADV_WILLNEED)` / CUDA 整层预取，尽量把随机读提前。
 
 ## 8. 淘汰策略
