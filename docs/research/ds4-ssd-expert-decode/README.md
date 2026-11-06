@@ -84,7 +84,7 @@ flowchart TD
 ## 5. 缓存查找与容量
 
 - **查什么**：以 `(model_map, layer, expert, gate/up/down 绝对偏移, 专家字节数)` 为键。命中即把 `last_used` 提到当前时钟；未命中才走读盘。（Metal `ds4_metal.m:17117` 起；ROCm `cuda_stream_resident_find`，`ds4_rocm_runtime.cuh:1430`；CUDA `ds4_cuda.cu:29108` 起。）
-- **容量**：`--ssd-streaming-cache-experts NGB` 先换算成专家个数 `ds4_ssd_cache_experts_for_byte_budget = bytes / per_expert_bytes`（`ds4_ssd.c:72`，`ds4.c:5303`）；纯数字则直接是槽位数。自动规划 `ds4_ssd_auto_cache_plan`（`ds4_ssd.c:108`）按「推荐工作集 × 百分比（默认 80%，`DS4_SSD_AUTO_CACHE_PCT` 可调 50–95） − 非路由权重 − 预填预留」得到预算。预算可能被下调，实际值以启动报告为准。
+- **容量**：`--ssd-streaming-cache-experts NGB` 先换算成专家个数 `ds4_ssd_cache_experts_for_byte_budget = bytes / per_expert_bytes`（`ds4_ssd.c:72`，包装为 `ds4_streaming_cache_experts_for_byte_budget`，`ds4.c:5314`）；纯数字则直接是槽位数。自动规划 `ds4_ssd_auto_cache_plan`（`ds4_ssd.c:108`）按「推荐工作集 × 百分比（默认 80%，`DS4_SSD_AUTO_CACHE_PCT` 可调 50–95） − 非路由权重 − 预填预留」得到预算。预算可能被下调，实际值以启动报告为准。
 - **槽位分配**：Metal 支持 slab 分配（同尺寸类专家共用大块，`ds4_gpu_stream_expert_slab_*`）；尺寸不同的混合精度层退回独立分配。ROCm 用约 1 GiB 的 slab 向预算内生长（`cuda_stream_expert_slab_grow`，`ds4_rocm_runtime.cuh:1582`）并保留 `DS4_ROCM_STREAM_FREE_RESERVE_GB`（默认 16 GiB）空闲水位。
 
 ## 6. 未命中时真正的「从盘读出」路径（按后端）
@@ -112,7 +112,7 @@ flowchart TD
 
 ## 7. 延迟隐藏（decode 特有的三个手段）
 
-1. **异步 early-load / 后台读池**：Metal 有一个专用服务线程（`metal_graph_selected_async_load_worker_main`，`ds4.c` 内），GPU 上算 router 的同时主机就能拿到 selected id 并开始读。若服务线程不能安全等待在途条目，`ids_ok` 语义让主线程用同一组 id 同步重试（`ds4.c:27080` 附近）。
+1. **异步 early-load / 后台读池**：Metal 有一个专用服务线程（`metal_graph_selected_async_load_worker_main`，`ds4.c:23677`），GPU 上算 router 的同时主机就能拿到 selected id 并开始读。若服务线程不能安全等待在途条目，`ids_ok` 语义让主线程用同一组 id 同步重试（`ds4.c:27071` 附近）。
 2. **resident/missing 拆分**：命中与未命中专家分开计算，命中部分先跑，读盘被盖住。Metal 侧要求 miss 数 ≥3 且缓存已有一定规模才拆（`ds4_gpu_stream_expert_split_worthwhile`，`ds4_metal.m:13520`）；ROCm 单 token 走 `cuda_stream_selected_apply`（`ds4_rocm_moe_launch.cuh:702`）的 resident/missing mask。
 3. **读前提示**：`F_RDADVISE` / `posix_madvise(POSIX_MADV_WILLNEED)` / CUDA 整层预取，尽量把随机读提前。
 
