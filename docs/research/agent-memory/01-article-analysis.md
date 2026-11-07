@@ -313,7 +313,7 @@ session 内写记忆时只能看到**当前 session 的上下文**；dreaming �
 | --- | --- | --- |
 | **Pokémon 结论来自"各一次 run"** | 原文明确写 "one run each of Sonnet 3.7 and Claude Fable 5" | 413 vs 9 个文件、1 vs 4 枚徽章的差距极大且方向一致，**叙事可信**，但**不能当作统计效应**；把它当作"设计假设"而非"已验证定律" |
 | **Mt. Moon 同样是个案** | 单一场景前后对照 | 因果链清楚（transcript 作为 ground truth → 纠正 → 行为改变），但**未给重复次数与成功率** |
-| **wiki 收益的数字口径不统一** | 48%（仅 wiki）/ 53%（仅 search）/ 61%（search+wiki）出现在同一段，但**分母与是否含 search 不完全一致** | 引用时必须**带口径**，不要简化为"wiki 提升 X%" |
+| **wiki 收益的表述是 best-vs-aggregate** | 原文同时给出"仅 wiki **best score** 48%"与"仅 search **aggregate** 53%"、"search+wiki aggregate 54%→61%" | 三个数字并非同一统计量（best-of vs aggregate），引用时必须**带口径**，不要简化为"wiki 提升 X%" |
 | **CL-Bench 增益只有方向性描述** | 原文 Figure 3 给图未在正文给具体分数 | "几乎翻倍"（Sonnet 4.6 引导后）只有这一处是数字，其余是定性描述 |
 | **stainless 语料的规模优势无法外推** | 350k 文件 / 420M tokens 的企业内部语料 | 小语料上模拟 RAG 的 `index.md` 方案可能更划算（Karpathy 模式的经验值：约 100 来源 / 数百页时索引文件足够） |
 | **"不要写死规则"的适用范围** | 原文自己说规则"可能削弱性能"（could end up weakening performance），且观察到**弱模型最需要规则/引导** | 正确读法是**随模型能力与任务调整约束强度**，不是"永不写规则" |
