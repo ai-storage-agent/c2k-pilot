@@ -41,7 +41,7 @@
 | --- | --- |
 | 原文正文 | `curl` 直连文章页（HTTP 200，242,416 bytes），去除 script/style 后转文本；全文 119 行、约 25k 字符 |
 | 图注 | 从 HTML 的 `<figure>` 节点提取，共 **15 个 figure**，逐个核对图注文字与正文引用（Figure 1–15） |
-| 出链 | 正则提取全部 `<a href>`，去重后得到 24 条绝对链接；扣除站点导航（Claude.ai / Claude console）后，正文与图注引用共 22 条，全部纳入 §1 |
+| 出链 | 正则提取全部 `<a href>`，去重后得到 24 条绝对链接；扣除站点导航（Claude.ai / Claude console）后，正文引用、图注、相关文章与配套资料共 22 条，全部纳入 §1 |
 | 关联文档 | Managed Agents memory / Dreams、Claude Code memory、knowledge-wiki quickstart、Karpathy gist 均抓取全文后读取相关小节 |
 | sleep-time compute | 从 arXiv 摘要页提取 Abstract 原文，用于核验本文对"离线算力"的表述边界 |
 | 核验原则 | 未成功抓取的内容不写入正文；仅在明确标注来源时引用第三方材料 |
