@@ -1,0 +1,22 @@
+# 原文图表索引（Figure 1–15）
+
+> 抓取自 <https://www.anthropic.com/research/components-of-agent-memory>（2026-11-07）。
+> 图注为原文字面内容；URL 指向 Anthropic CDN，**版权归 Anthropic**，此处仅作引用索引，未下载再分发。
+
+| 图 | 图注（原文） | URL |
+| --- | --- | --- |
+| Figure 1 | Claude can use dreaming to organize memory. This can correct mistakes, create notes, build new memory representations, or shape what's preemptively loaded into future sessions. | https://www-cdn.anthropic.com/images/4zrzovbb/website/a0bcfa203214d817d2b4261b7188aba8be6db5b2-3840x1754.png |
+| Figure 2 | Claude can write notes to memory. | https://www-cdn.anthropic.com/images/4zrzovbb/website/2ef2bf5c81ea6d578749782782eff10cf3136de4-3840x1754.png |
+| Figure 3 | CL-Bench database task, comparing memory with a stateless baseline across models. | https://www-cdn.anthropic.com/images/4zrzovbb/website/bb0d44c78cc431fb5e84fbf2cb17c4303bc6bd65-3840x2160.png |
+| Figure 4 | Claude's memory directories for Sonnet 3.7 versus Fable 5 while playing Pokémon. | https://www-cdn.anthropic.com/images/4zrzovbb/website/5e15e10f665773050d90fafc38ab8dd76ae5368b-3840x2545.png |
+| Figure 5 | Left: Sonnet 4.6 on the CL-Bench database task with and without prompting to guide memory usage. Right: how much each model's gain from memory changed when it was told to record only failures. | https://www-cdn.anthropic.com/images/4zrzovbb/website/da03e864e4eba93a91314fa5f2a5d0e4c14b2a0f-3840x2310.png |
+| Figure 6 | Dreaming can correct mistakes in memory. | https://www-cdn.anthropic.com/images/4zrzovbb/website/55ce85bd12860090704a5543a3da7504334ad9a9-3840x1754.png |
+| Figure 7 | A corrected memory note changed the outcome in Pokémon. With the uncorrected note, Claude says, "Mt Moon is behind me," heads for the next city, and ends up back on the route it came from. With the note corrected by dreaming, it says, "Now I need to find the Mt Moon cave entrance to re-enter," and goes back into the cave. | https://www-cdn.anthropic.com/images/4zrzovbb/website/d906d6ed9ac92db36631a624ad517183b07a545d-3840x2101.png |
+| Figure 8 | Dreaming corrects the memory, and Claude goes back into the cave and reaches the next city. The run with the uncorrected note ("Raw memory") never gets past the mountain, and neither does the run with no memory. | https://www-cdn.anthropic.com/images/4zrzovbb/website/2eb2bfe6d01e9a1fca74a41e952d948c09d42008-3840x2636.png |
+| Figure 9 | Dreaming can build memory representations. | https://www-cdn.anthropic.com/images/4zrzovbb/website/30923242548d746ee77784c87826cadc46574c34-3840x1754.png |
+| Figure 10 | Center: scores on 25 questions about a corpus of documents from a company as Claude built wikis over sequential sessions. Left and right: an example wiki after two and 128 sessions; each dot is a page, and lines join linked pages. | https://www-cdn.anthropic.com/images/4zrzovbb/website/336832b5015f1bfcfd7d786fae8120c533f26ecd-3136x1432.png |
+| Figure 11 | Each panel lists what was graded (left) and the source documents needed to meet each one (right). Left: 24 questions about a merger, which can be answered by looking at mostly public filings. More than half of the criteria required combining information from several documents. Right: a LAB task where the wiki showed no clear gain. Most criteria could be met from a single document. | https://www-cdn.anthropic.com/images/4zrzovbb/website/3677eab5e938466cc41fbac4d47f3118135d0563-3840x3694.png |
+| Figure 12 | The wiki grew to be larger than the raw files. | https://www-cdn.anthropic.com/images/4zrzovbb/website/ffa35479b1dea63b7948f76995b488d08854e86d-3840x2150.png |
+| Figure 13 | Dreaming can write to the top of the memory hierarchy. Injected context is loaded into every session, and the layers below it are read or searched when Claude needs them. | https://www-cdn.anthropic.com/images/4zrzovbb/website/c88bcc04c5d0e77db5828c9dbe72faf1c4421f8f-3840x1754.png |
+| Figure 14 | How many graded contract facts made it into the wiki, before and after instructions changed. Left: several agents writing to one shared page; 41 of 57 facts survived. Right: one agent per contract, each writing its own page and quoting terms word for word; 57 of 57 facts survived. | https://www-cdn.anthropic.com/images/4zrzovbb/website/592f604d38e90537553ab7127d1d3115924fda92-3840x1822.png |
+| Figure 15 | The wiki before and after a second dreaming pass. | https://www-cdn.anthropic.com/images/4zrzovbb/website/f1afeef9a2d986a6155c0789db46b8fa372a20eb-3840x1812.png |
