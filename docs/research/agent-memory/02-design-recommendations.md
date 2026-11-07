@@ -221,7 +221,7 @@ Karpathy 模式给出的三种操作可以直接当作 dreaming 的作业类型�
 
 ### 6.2 检索策略（组合而非二选一）[A]
 
-原文的对照很干净：**search+wiki（61%）> 仅 search（53%）> 仅 wiki（48%）**。
+原文的对照：**search+wiki（聚合分 54%→61%）> 仅 search（聚合 53%）> 仅 wiki（最佳分 48%）**。注意三者并非同一统计量（best-of vs aggregate），详见 [03 §3.2](03-claims-and-evidence.md#32-数字口径的不一致引用时必须小心)。
 
 **建议的检索顺序 [B]：**
 
