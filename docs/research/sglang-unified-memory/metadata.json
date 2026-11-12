@@ -1,0 +1,91 @@
+{
+  "archive": {
+    "kind": "research-archive",
+    "title": "SGLang Unified Memory 精读与结合我们工作的建议",
+    "created_at": "2026-11-12",
+    "created_by": "ai-storage-agent",
+    "ticket": "d65fabb2dca68bb87a2a0c17e6801e15",
+    "language": "zh-CN",
+    "method": "直连抓取 LMSYS blog 正文与 6 张 SVG 图注 + SGLang 官方文档（usage / design）+ GitHub API 只读核验主干代码与 PR 合入状态 + 只读走查 DwarfStar ds4 本地副本与我们的公开 Strix Halo fork。未复现任何性能实验。"
+  },
+  "question": {
+    "source": "feishu:oc_344d40a5d4d8b4d44d47ccd61c7183da",
+    "trigger_id": "8616491d9808c2485fe3cec72efe1268",
+    "text": "@ai-storage-agent https://www.lmsys.org/blog/2026-11-11-unified-memory 分析一下这篇blog，结合我们的工作，有什么建议",
+    "language": "zh-CN"
+  },
+  "subject": {
+    "title": "Unified Memory in SGLang: One Arena for Every Token Lifetime",
+    "authors": ["Cheng Wan", "Caihua Li", "Yonghao Zhuang", "Seokwoo Song", "Shuwen Wang", "Lianmin Zheng"],
+    "published": "2026-11-11",
+    "url": "https://www.lmsys.org/blog/2026-11-11-unified-memory",
+    "companion_docs": [
+      "https://docs.sglang.io/docs/advanced_features/unified_memory",
+      "https://docs.sglang.io/docs/advanced_features/unified_memory_design"
+    ]
+  },
+  "answer": {
+    "summary": "混合模型的三类状态（full-attention KV、sliding-window KV、recurrent state）需求不同步；SGLang 用 --enable-unified-memory 把启动时按比例切死的子池换成一个 arena：full KV 从高端向下长、bounded state 从低端向上长、中间是可按需搬移的浮空 band，惰性压实按需最小搬移。收益来源是消除一类配置错误（错误比例实测损失 12%/14% 吞吐，默认配置无回退），而不是算子更快。",
+    "key_points": [
+      "一个 arena 取代分区；启动比例参数退化为 sizing 目标。",
+      "每 token 一个 entry：跨所有层的行打包，不同 shape/dtype 可共处；投机 draft 与 DSA indexer key 因此共用分配与生命周期。",
+      "联合需求模型服务 admission / memory clip / HiCache load-back / PD 预分配 / 前缀淘汰五处；单池空闲量只用于日志与指标。",
+      "三级重排阶梯：no move → compact ends → relayout；可行性与实现分离。",
+      "页生命周期四状态（beyond frontier / hole / live / pending）+ 两源保护（vacated / fenced）；逻辑释放立即、物理复用等待；虚拟 id 使搬页不改请求表。",
+      "[文档] 仍是 experimental；只支持混合模型；纯 full-attention、带 SW 的 MLA、DeepSeek-V4、MPS/MLX 启动即拒。"
+    ]
+  },
+  "upstream_facts": {
+    "sglang_main_at_check": "bad3dd51002438423c16915e61c652ef3fbf18ec (2026-11-12T07:36:43Z)",
+    "blog_revision_verified": "daa171846f (2026-11-10T18:12:22Z, hicache fix)",
+    "flag_merged_into_main": true,
+    "merged_prs": [49300, 49301, 49310, 49312],
+    "merged_at": "2026-11-10",
+    "mem_cache_kv_dir_present": true,
+    "repository_visibility": "public"
+  },
+  "our_work_grounding": {
+    "ds4_upstream": "antirez/ds4 @ b3f50180ec2c (2026-11-03)",
+    "our_public_fork": "wkljohn/ds4-strix-halo-tp-odinlink (public, pushed 2026-09-20)",
+    "concrete_facts_used": [
+      "GLM-5.3 34 个 KDA 层每 TP rank 常驻每序列状态 152,633,344 B（145.56 MiB），含三个因果卷积历史与每层 recurrent 矩阵（fork docs/GLM5-KDA.md）",
+      "ds4 单专家 9,953,280 B ≈ 9.49 MiB、全部路由专家 142.38 GiB、decode 不排序（本仓库 c2k-pilot PR #8 分析）",
+      "ds4 专家缓存字节预算 --ssd-streaming-cache-experts 与 --ctx × --batched-session 均为启动期定死",
+      "ds4 有 disk KV 检查点（--kv-disk-dir/--kv-disk-space-mb）与 --kv-cache-* 边界控制"
+    ]
+  },
+  "recommendation_summary": {
+    "principle": "先借方法论（联合需求模型 + 显式页/槽状态 + 一致性决策 + 分层不变量与 seeded stress harness），再借机制，最后才借代码。",
+    "immediate": [
+      "A1 分开报告 held（精确）与 available（估计），并给决策路径加读取单池估计的告警开关",
+      "A2 把准入需求收敛成单一函数",
+      "A3 为专家缓存槽位加最小状态机与离线断言",
+      "A4 记录并公开 --ctx 与 --batched-session 的联合需求模型",
+      "A5 把 disk KV 检查点保留边界写成显式规则"
+    ],
+    "mid_term": [
+      "A6 专家缓存与 KV 的容量换手（不同几何 sub-pool，按各自单位分配）",
+      "A7 把逻辑进展驱动决策写成并发正确性判据",
+      "A8 seeded stress harness（检查 lost_write / unordered_overlap / host_read_after_wait / rank_divergence / cross_dtype_bytes / ledger_leak）"
+    ],
+    "explicitly_not": [
+      "不为统一而统一（单一状态形态保留专用 allocator）",
+      "不在缺少 device stream/事件语义的平台上硬上同类排序",
+      "不把作者自报数字当作我们的预期（Strix Halo 是统一内存 + SSD 分层，瓶颈结构不同）"
+    ]
+  },
+  "verification": {
+    "blog_body": "直连抓取并去标签提取正文；6 张 SVG 全部 HTTP 200，图注由 aria-label 全文核验",
+    "official_docs": "usage guide 15,228 B、design guide 40,705 B，均取 .md 版本",
+    "upstream_code": "gh api 核验 kv_cache_hook.py 含 enable_unified_memory 分支；kv/ 目录列表；PR #49300/#49301/#49310/#49312 state=MERGED",
+    "our_work": "只读走查本地 ds4-new 文档与公开 fork 文档；引用本仓库 c2k-pilot PR #8 / #6 的分析（两者均未合入）",
+    "performance_experiments": "未复现（无 H200、无 SGLang 部署）"
+  },
+  "limitations": [
+    "所有性能数字为原文作者自报、两次运行平均、无方差/置信区间，且对照是 SGLang 默认比例而非调优比例。",
+    "Figure 内示意数量未重建核对，只核验图注文字。",
+    "博客数字绑定 revision daa171846f；主干后续改动可能已改变行为，机制描述以官方 [文档] 当前页为准。",
+    "未做任何真机对比实验；对 ds4 的建议均为未实测的设计建议。",
+    "只使用公开来源；未引用或复制任何非公开讨论材料。"
+  ]
+}
